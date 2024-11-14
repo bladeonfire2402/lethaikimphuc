@@ -1,0 +1,9 @@
+.primary-btn{
+
+}
+
+.primary-btn:hover{
+    color: white;
+    background: #292859;
+    transition: 0.5s ease-in-out;
+}
