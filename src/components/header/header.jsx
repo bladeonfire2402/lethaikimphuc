@@ -2,7 +2,7 @@
 
 const Header=()=>{
     return(
-        <div className="Header-wrapper flex justify-between text-gilroy text-2xl items-center mt-10">
+        <div className="Header-wrapper flex justify-between text-gilroy text-2xl items-center mt-10 text-primary">
             <nav>Home</nav>
             <nav>Project</nav>
             <nav>Services</nav>

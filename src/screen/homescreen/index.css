@@ -1,6 +1,7 @@
 .HomeScreen-wrapper h1{
     font-size: 100px;
     line-height: 1.2;
+    letter-spacing: 2px;
 }
 
 .bg-test-img{

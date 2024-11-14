@@ -80,6 +80,10 @@
   background-color: var(--primary-color);
 }
 
+.grey-bg{
+  background-color: grey;
+}
+
 /*class về layout*/
 .wrapper{
   width: 82%;
@@ -89,4 +93,22 @@
   width: 400px;
   height: 450px;
 
+}
+
+
+/*class về độ dài*/
+.h-1000{
+  height: 1000px;
+}
+
+.h-800{
+  height: 800px;
+}
+
+.h-600{
+  height: 600px;
+}
+
+.h-700{
+  height: 700px;
 }
