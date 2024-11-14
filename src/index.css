@@ -80,6 +80,9 @@
   background-color: var(--primary-color);
 }
 
+.bg-secondary{
+  background-color: var(--secondary-color);
+}
 .grey-bg{
   background-color: grey;
 }
@@ -91,7 +94,7 @@
 
 .block-item{
   width: 400px;
-  height: 450px;
+  height: 480px;
 
 }
 

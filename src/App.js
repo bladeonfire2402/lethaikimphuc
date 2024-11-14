@@ -8,16 +8,18 @@ import Footer from './components/footer/footer';
 
 function App() {
   return (
-    <div className="App flex justify-center bg-main">
+    <div className="App flex flex-col justify-center items-center bg-main">
       <div className='wrapper'>
         <Header/>
+      </div>
+      <div className='wrapper'>
          <Routes>
            <Route path='/' element={<HomeScreen/>}/>
            <Route path='/project' element={<ProjectScreen/>}/>
            <Route/>
          </Routes>
-         <Footer/>
       </div>
+      <Footer/>
     </div>
   );
 }
