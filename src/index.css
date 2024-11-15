@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*:focus {
+  outline: none; /* Xóa outline khi bấm vào */
+}
+
 @font-face {
   font-family: 'Poppins';
   src: url('./assets/fonts/Poppins-Regular.ttf') format('truetype');

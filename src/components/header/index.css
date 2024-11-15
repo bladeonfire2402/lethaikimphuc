@@ -4,3 +4,7 @@
     width: 175px;
     height: 131px;
 }
+
+div:focus{
+    outline: none;
+}

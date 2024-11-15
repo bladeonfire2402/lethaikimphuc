@@ -1,0 +1,9 @@
+.GalleryLayout-wrapper{
+    grid-template-columns: repeat(2, 1fr); /* 2 cột */
+    gap: 30px;
+    
+}
+
+.gallery-items{
+    height: 600px;
+}
