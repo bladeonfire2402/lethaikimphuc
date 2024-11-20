@@ -1,5 +1,5 @@
 .LendIdeaToWorld-wrapper h1{
-    font-size: 100px;
+    font-size: 80px;
     line-height: 1.2;
     letter-spacing: 1px;
    
@@ -7,4 +7,9 @@
 
 .bg-test-img{
     background-color: gray;
+}
+
+.img-main-screen{
+    width: 95%;
+    padding-right: 30px;
 }

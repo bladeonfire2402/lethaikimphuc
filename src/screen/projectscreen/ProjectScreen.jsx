@@ -6,7 +6,7 @@ import './index.css'
 
 const ProjectScreen = () =>{
     return(
-        <div className="ProjectScreen-wrapper pt-28">
+        <div className="ProjectScreen-wrapper pt-10">
             <h1 className="text-primary text-gilroy-bold">My Notable <br/>Projects Handle</h1>
             <GalleryLayout/>
         </div>

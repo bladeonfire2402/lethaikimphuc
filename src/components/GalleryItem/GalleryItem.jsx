@@ -45,7 +45,7 @@ const GalleryItem = ({ Project }) => {
         >
             <img
                 alt=""
-                className="rounded-sm gallery-items w-full"
+                className="rounded-sm gallery-items w-full object-fill  "
                 src={Project.img[0]}
             />
             <div

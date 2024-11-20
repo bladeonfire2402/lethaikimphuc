@@ -7,7 +7,7 @@ import './index.css'
 
 const HomeScreen = () =>{
     return(
-        <div className="HomeScreen-wrapper pt-28 ">
+        <div className="HomeScreen-wrapper pt-10 ">
           <LendIdeaToWorldSection/>
           <SkillAndExperience/>
           <RecentWork/>

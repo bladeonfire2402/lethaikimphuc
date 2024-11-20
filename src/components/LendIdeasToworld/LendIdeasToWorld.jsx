@@ -39,7 +39,7 @@ const LendIdeaToWorldSection = () => {
                 <img className="-mt-11 img-main-screen" src={img} alt="" />
             </div>
             <div className="w-6/12">
-                <div className="w-/12">
+                <div className="w-9/12">
                     <h1 className="text-secondary text-gilroy-bold text-left">Lend the ideas to the world</h1>
                 </div>
                 <div className="">

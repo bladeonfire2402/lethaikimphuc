@@ -1,11 +1,12 @@
 .GalleryLayout-wrapper{
     grid-template-columns: repeat(2, 1fr); /* 2 cột */
-    gap: 30px;
-    
+    gap: 30px; 
 }
 
 .gallery-items{
-    height: 580px;
+    height: 500px;
+    width: 500px;
+    margin: auto;
 }
 
 .bright{
@@ -18,5 +19,5 @@
 
 .gallery-items:hover{
     margin-top: -10px;
-    transition: 0.3s ease-in-out;
+    transition: 1.2s ease-in-out;
 }
