@@ -1,3 +1,7 @@
 .line-hr{
     border: 2px solid #292859;
 }
+
+.text-content h3{
+    line-height: 1.4;
+}

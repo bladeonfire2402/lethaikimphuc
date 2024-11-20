@@ -34,6 +34,9 @@ const GalleryItem = ({ Project }) => {
         else if(id===2){
             navigate(`/projectDetailVer2/${id}`)
         }
+        else if(id===3){
+            navigate(`/projectDetailVer3/${id}`)
+        }
         
     }
 
