@@ -25,7 +25,7 @@ function App() {
            <Route path='/projectDetailVer2/:id' element={<ProjectDetailScreenVer2/>}/>
            <Route path='/projectDetailVer3/:id' element={<ProjectDetailScreenVer3/>}/>
            <Route path='/contact/' element={<ContactScreen/>}/>
-           <Route path='/portfolio/' element={<PortfolioScreen/>}/>
+           <Route path='/about/' element={<PortfolioScreen/>}/>
 
            <Route/>
          </Routes>

@@ -8,8 +8,8 @@ const Header=()=>{
             <Link to={'/project'}><nav>Project</nav></Link>
             <nav>Services</nav>
             <nav><img className='img-logo' src={`${process.env.PUBLIC_URL}/assets/img/main/logo.png`} alt="Home" /></nav>
-            <Link to={'/portfolio'}><nav>Portfolio</nav></Link>
-            <nav>About</nav>
+            <nav><a href='https://drive.google.com/file/d/1ZtQiVNLkP-peQv0uGlROVp7meuPvxXfD/view'>Portfolio</a></nav>
+            <Link to={'/about'}><nav>About</nav></Link>
             <Link to={'/contact'}><nav>Contact</nav></Link>
         </div>
     )
