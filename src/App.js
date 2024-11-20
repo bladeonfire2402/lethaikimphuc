@@ -9,10 +9,11 @@ import ProjectDetailScreenVer1 from './screen/projectdetailscreen/projectdetails
 import ProjectDetailScreenVer2 from './screen/projectdetailscreen/projectdetailscreenver2';
 import ProjectDetailScreenVer3 from './screen/projectdetailscreen/projectdetailscreenver3';
 import ContactScreen from './screen/contactscreen/contactscreen';
+import PortfolioScreen from './screen/portfolioscreen/PortfolioScreen';
 
 function App() {
   return (
-    <div className="App flex flex-col justify-center items-center bg-main">
+    <div className="App flex flex-col  items-center bg-main">
       <div className='wrapper'>
         <Header/>
       </div>
@@ -24,6 +25,8 @@ function App() {
            <Route path='/projectDetailVer2/:id' element={<ProjectDetailScreenVer2/>}/>
            <Route path='/projectDetailVer3/:id' element={<ProjectDetailScreenVer3/>}/>
            <Route path='/contact/' element={<ContactScreen/>}/>
+           <Route path='/portfolio/' element={<PortfolioScreen/>}/>
+
            <Route/>
          </Routes>
       </div>

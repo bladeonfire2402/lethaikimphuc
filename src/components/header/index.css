@@ -7,3 +7,7 @@
 div:focus{
     outline: none;
 }
+
+nav:hover{
+    color: #ff8dc8;
+}

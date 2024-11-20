@@ -8,7 +8,7 @@ const Header=()=>{
             <Link to={'/project'}><nav>Project</nav></Link>
             <nav>Services</nav>
             <nav><img className='img-logo' src={`${process.env.PUBLIC_URL}/assets/img/main/logo.png`} alt="Home" /></nav>
-            <nav>Portfolio</nav>
+            <Link to={'/portfolio'}><nav>Portfolio</nav></Link>
             <nav>About</nav>
             <Link to={'/contact'}><nav>Contact</nav></Link>
         </div>

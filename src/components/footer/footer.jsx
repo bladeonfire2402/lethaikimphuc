@@ -2,7 +2,7 @@ import './index.css'
 
 const Footer=()=>{
     return(
-        <div className="Footer-wrapper mt-52 bg-primary w-full h-80 flex justify-center py-16">
+        <div className="Footer-wrapper mt-24 bg-primary w-full h-80 flex justify-center py-16">
             <div className="wrapper flex gap-2">
                 <div className="w-5/12">
                 <img className="img-logo" src={`${process.env.PUBLIC_URL}/assets/img/main/white-logo.png`} alt=""/>
