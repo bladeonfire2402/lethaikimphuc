@@ -32,10 +32,20 @@ const GalleryItem = ({ Project }) => {
             navigate(`/projectDetailVer1/${id}`)
         }
         else if(id===2){
-            navigate(`/projectDetailVer2/${id}`)
+            navigate(`/projectDetailVer1/${id}`)
         }
         else if(id===3){
-            navigate(`/projectDetailVer3/${id}`)
+            navigate(`/projectDetailVer2/${id}`)
+        }
+        else if(id===4){
+            navigate(`/projectDetailVer2/${id}`)
+        }
+        else if(id===5){
+            navigate(`/projectDetailVer1/${id}`)
+            
+        }
+        else if(id===6){
+            navigate(`/projectDetailVer2/${id}`)
         }
         
     }
@@ -43,17 +53,17 @@ const GalleryItem = ({ Project }) => {
     return (
         <div
             ref={galleryItemRef}
-            className="relative gallery-items rounded-sm"
+            className="relative gallery-items item-hover rounded-sm"
             onClick={()=>{HandleNavigate(Project.id)}}
         >
             <img
                 alt=""
-                className="rounded-sm gallery-items w-full object-fill  "
+                className="rounded-sm gallery-items  w-full object-fill  "
                 src={Project.img[0]}
             />
             <div
                 ref={descriptionRef}
-                className="absolute cursor-pointer w-full h-full top-0 left-0 text-gilroy-bold text-white trans-test  flex justify-center   items-center hidden"
+                className="absolute cursor-pointer w-full h-full top-0 left-0 text-gilroy-bold text-white trans-test  flex justify-center text-2xl  items-center hidden"
             >
                 {Project.title}
             </div>

@@ -28,8 +28,11 @@ const ProjectDetailScreenVer2=()=>{
                   </div>
                </div>
             </div>
-            <div className="w-1/2">
+            <div className="w-1/2 flex justify-end">
+
+            <div className="w-10/12 ">
                <CustomSwiperVer2 imgList={DisplayProject.img}/>
+            </div>
             </div>
         </div>
         <div className="mt-14 gap-5 flex flex-col">

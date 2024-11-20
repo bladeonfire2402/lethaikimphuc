@@ -9,6 +9,11 @@
     margin: auto;
 }
 
+.item-hover:hover{
+    animation: 0.5s motion;
+    margin-top: -10px;
+}
+
 .bright{
     filter: brightness(0.5);
 }
@@ -17,7 +22,14 @@
     background-color: rgba(41, 40, 89, 0.6);
 }
 
-.gallery-items:hover{
-    margin-top: -10px;
-    transition: 1.2s ease-in-out;
+
+@keyframes motion{
+    0% {
+        /* Styles at the start of the animation */
+        margin-top: 0px;
+      }
+      100% {
+        /* Styles at the end of the animation */
+        margin-top: -10px;
+      }
 }

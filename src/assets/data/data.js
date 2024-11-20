@@ -93,17 +93,17 @@ export const ProjectData = [
     },
     {
         id: 2,
-        title: "VIETRAVEL POSTER",
-        description: "Vietravel Airlines wanted to showcase the breathtaking natural beauty and thousand-year heritage of Vietnam capital city to an international audience. We wanted to promote Hanoi as a must-see tourism destination.",
-        projectType:"School Project",
-        toolUsed:"Illustrator",
-        Role:'Illustration',
+        title: "CUSTOM MAP CREATION",
+        description: "This compilation has hand-drawn vector components in a distinctive manner. I developed a tool to assist users in constructing aesthetically pleasing maps, landscapes, urban designs, and more elements. This collection includes depictions of residences, landscapes, thoroughfares, fauna, and more subjects. All pieces are in vector format, allowing for rapid changes of colors and sizes.",
+        projectType:"Personal Project",
+        toolUsed:"Illustrator with a Wacom Cintiq Pro",
+        Role:'Illustrator',
         img: Project2Img
     },
     {
         id: 3,
-        title: "WWF POSTER",
-        description: "This collaborative initiative, in partnership with Dairy Queen, seeks to assist individuals in promoting awareness about the imperiled habitat of polar bears.",
+        title: "VIETRAVEL POSTER",
+        description: "Vietravel Airlines wanted to showcase the breathtaking natural beauty and thousand-year heritage of Vietnam capital city to an international audience. We wanted to promote Hanoi as a must-see tourism destination.",
         projectType:"School Project",
         toolUsed:"Illustrator",
         Role:"Illustration",
@@ -111,29 +111,38 @@ export const ProjectData = [
     },
     {
         id: 4,
+        title: "WWF POSTER",
+        description: `This collaborative initiative, in partnership with Dairy Queen, seeks to assist individuals in promoting awareness about the imperiled habitat of polar bears.`,
+        projectType:"School Project",
+        toolUsed:"Illustrator",
+        Role:"Illustration",
+        img: Project4Img
+    },
+    {
+        id: 5,
         title: "PERSONAL BRANDING",
         description: `The logo is comprised of the initial "L" from my last name and the initial "P" from my first name. I adorned these two letters with geometric forms and converted them into a cheerful face. I want to propagate optimism, ideal for conveying feelings of pleasure, joy, or transmitting positive emotions.`,
         projectType:"Personal Project",
         toolUsed:"Illustrator & Photoshop",
         Role:"Branding",
-        img: Project4Img
-    },
-    {
-        id: 5,
-        title: "",
-        description: "",
         img: Project5Img
     },
     {
         id: 6,
-        title: "",
-        description: "",
-        img: Project6Img
+        title: "APPLY AI PROJECT",
+        description: `The user requires 4 A3 pages for Design Engagement, consisting of 1 A3 PDF page including a hero picture and a one-sentence description, as well as 3 A3 PDF boards describing the proposal. Ultimately, this exercise focuses on the influence of Artificial Intelligence on our world.`,
+        projectType:"School Project",
+        toolUsed:"Illustrator & Photoshop",
+        Role:"Editorial Design",
+        img: Project7Img
     },
     {
         id: 7,
-        title: "",
-        description: "",
+        title: "MUSIC OF HAPPINESS",
+        description: `The summary of “Joybringer” inspired me to delve into typography while considering the concept of joy in listening to music. Music can not only make our lives better, but also bring us joy. I’ve created a book on typography that we can easily understand.`,
+        projectType:"Personal Project",
+        toolUsed:"Illustrator & Photoshop",
+        Role:"Branding",
         img: Project7Img
     },
 ];

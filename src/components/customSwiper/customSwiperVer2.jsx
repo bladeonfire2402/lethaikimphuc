@@ -11,7 +11,7 @@ export const CustomSwiperVer2 = ({imgList}) => {
     <Swiper
       modules={[Autoplay]}
       autoplay={{
-        delay: 3000, // 3 seconds delay
+        delay: 1500, // 3 seconds delay
         disableOnInteraction: false, // Keeps autoplay active even after user interaction
       }}
       loop={true} // Ensures infinite looping

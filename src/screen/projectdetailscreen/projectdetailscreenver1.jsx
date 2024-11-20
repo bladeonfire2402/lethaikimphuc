@@ -37,6 +37,9 @@ const ProjectDetailScreenVer1 = () => {
                 </div>
 
             </div>
+            {DisplayProject.id===5 ? <div className="mt-16">
+                <img src={DisplayProject.img[2]} className="w-full" />
+            </div> : <div></div>}
             </div>
             <div className="mt-14 gap-5 flex flex-col">
                <hr className="line-hr "/>

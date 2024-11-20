@@ -1,6 +1,7 @@
 // Import Swiper core and required modules
 import { Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import './index.css'
 
 // Import Swiper styles
 import 'swiper/css';
@@ -11,7 +12,7 @@ export const CustomSwiper = ({imgList}) => {
     <Swiper
       modules={[Autoplay]}
       autoplay={{
-        delay: 3000, // 3 seconds delay
+        delay: 1500, // 3 seconds delay
         disableOnInteraction: false, // Keeps autoplay active even after user interaction
       }}
       loop={true} // Ensures infinite looping
@@ -19,8 +20,10 @@ export const CustomSwiper = ({imgList}) => {
       slidesPerView={2}
     >
       {imgList.map((img)=>(
-        <SwiperSlide>
-          <img src={img}/>
+        <SwiperSlide className=''>
+          <div className='flex justify-center'>
+           <img className='swiper-img' src={img} alt=''/>
+          </div>
         </SwiperSlide>
       ))}
     </Swiper>

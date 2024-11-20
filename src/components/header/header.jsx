@@ -10,7 +10,7 @@ const Header=()=>{
             <nav><img className='img-logo' src={`${process.env.PUBLIC_URL}/assets/img/main/logo.png`} alt="Home" /></nav>
             <nav>Portfolio</nav>
             <nav>About</nav>
-            <nav>Contact</nav>
+            <Link to={'/contact'}><nav>Contact</nav></Link>
         </div>
     )
 }
