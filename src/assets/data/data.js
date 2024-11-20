@@ -1,5 +1,6 @@
 
 export const Project1Img = [
+    `${process.env.PUBLIC_URL}/assets/project/PJpage1/a1.png`,
     `${process.env.PUBLIC_URL}/assets/project/PJpage1/thang1.png`,
     `${process.env.PUBLIC_URL}/assets/project/PJpage1/thang2.png`,
     `${process.env.PUBLIC_URL}/assets/project/PJpage1/thang3.png`,
@@ -15,6 +16,7 @@ export const Project1Img = [
 ];
 
 export const Project2Img = [
+    `${process.env.PUBLIC_URL}/assets/project/PJpage2/a2.png`,
     `${process.env.PUBLIC_URL}/assets/project/PJpage2/1.jpg`,
     `${process.env.PUBLIC_URL}/assets/project/PJpage2/2.jpg`,
     `${process.env.PUBLIC_URL}/assets/project/PJpage2/3.jpg`,
@@ -33,11 +35,13 @@ export const Project2Img = [
 ];
 
 export const Project3Img=[
+    `${process.env.PUBLIC_URL}/assets/project/PJpage3/a3.png`,
     `${process.env.PUBLIC_URL}/assets/project/PJpage3/1.png`,
     `${process.env.PUBLIC_URL}/assets/project/PJpage3/2.png`,
 ]
 
 export const Project4Img=[
+    `${process.env.PUBLIC_URL}/assets/project/PJpage4/a4.png`,
     `${process.env.PUBLIC_URL}/assets/project/PJpage4/1.jpg`,
     `${process.env.PUBLIC_URL}/assets/project/PJpage4/2.jpg`,
     `${process.env.PUBLIC_URL}/assets/project/PJpage4/3.jpg`,
@@ -47,9 +51,11 @@ export const Project5Img=[
     `${process.env.PUBLIC_URL}/assets/project/PJpage5/1.png`,
     `${process.env.PUBLIC_URL}/assets/project/PJpage5/2.png`,
     `${process.env.PUBLIC_URL}/assets/project/PJpage5/3.png`,
+    
 ]
 
 export const Project6Img = [
+ 
     `${process.env.PUBLIC_URL}/assets/project/PJpage6/2.png`,
     `${process.env.PUBLIC_URL}/assets/project/PJpage6/1.png`,
     `${process.env.PUBLIC_URL}/assets/project/PJpage6/3.png`,
@@ -57,9 +63,12 @@ export const Project6Img = [
     `${process.env.PUBLIC_URL}/assets/project/PJpage6/5.png`,
     `${process.env.PUBLIC_URL}/assets/project/PJpage6/6.png`,
     `${process.env.PUBLIC_URL}/assets/project/PJpage6/7.png`,
+  
+
 ];
 
 export const Project7Img=[
+    `${process.env.PUBLIC_URL}/assets/project/PJpage7/a5.png`,
     `${process.env.PUBLIC_URL}/assets/project/PJpage7/1.png`,
     `${process.env.PUBLIC_URL}/assets/project/PJpage7/2.png`,
     `${process.env.PUBLIC_URL}/assets/project/PJpage7/3.png`,

@@ -10,8 +10,8 @@ const ProjectDetailScreenVer1 = () => {
     return (
         <div className="ProjectDetailVer1-wrapper pt-10">
             <div className="mt-3">
-            <CustomSwiper imgList={DisplayProject.img}/>
-            <div className="mt-11 flex justify-between gap-20">
+            <CustomSwiper imgList={DisplayProject.img.slice(1)}/>
+            <div className="mt-11 flex justify-between gap-20 text-primary">
                 <div className="w-1/2 flex flex-col items-start">
                    <h3 className="text-gilroy-bold text-2xl text-primary">{DisplayProject.title}</h3>
                    <p className="text-poppins font-light text-left">{DisplayProject.description}</p>
@@ -38,7 +38,7 @@ const ProjectDetailScreenVer1 = () => {
 
             </div>
             {DisplayProject.id===5 ? <div className="mt-16">
-                <img src={DisplayProject.img[2]} className="w-full" />
+                <img src={DisplayProject.img[2]} className="w-full"  alt=""/>
             </div> : <div></div>}
             </div>
             <div className="mt-14 gap-5 flex flex-col">

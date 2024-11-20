@@ -1,10 +1,10 @@
 
-
+import './index.css'
 const PortfolioScreen=()=>{
     return(
         <div className="Portfolio-wrapper pt-12">
             <div className="flex justify-between gap-5 items-center px-5">
-               <div className="w-1/2 flex justify-end"><img className="w-11/12" src={`${process.env.PUBLIC_URL}/assets/img/main/porto.png`} alt="Le Thai Kim Phuc"/></div>
+               <div className="w-1/2 flex justify-end"><img className="w-12/12" src={`${process.env.PUBLIC_URL}/assets/img/main/porto.png`} alt="Le Thai Kim Phuc"/></div>
                <div className="w-1/2">
                   <h1 className="text-missing-love text-secondary text-7xl mb-10">Le Thai Kim Phuc</h1>
                   <p className="text-poppins mb-5">I’m a 20 y/o graphic designer based in HCM City, Vietnam.</p>  
@@ -39,16 +39,16 @@ const PortfolioScreen=()=>{
                 </div>
             </div>
 
-            <div className="grid grid-cols-2 mt-16 gap-10 text-primary">
+            <div className="grid grid-cols-2 mt-16 gap-16 text-primary">
                 <div>
                    <h1 className="text-gilroy-bold text-3xl mb-5">Software Skills</h1>
                    <p className="text-poppins text-primary">Programs I can use proficiently:</p>
-                   <img className="w-10/12  mt-5 h-56" src={`${process.env.PUBLIC_URL}/assets/img/main/port-program.png`} alt=""/>
+                   <img className="mt-5 software-img" src={`${process.env.PUBLIC_URL}/assets/img/main/port-program.png`} alt=""/>
                 </div>
                 <div>
                    <h1 className="text-gilroy-bold text-3xl mb-5">Keywords</h1>
                    <p className="text-poppins text-primary mt-12"></p>
-                   <img className=" mt-5 h-56" src={`${process.env.PUBLIC_URL}/assets/img/main/port-key.png`} alt=""/>
+                   <img className=" mt-5 keyword-img " src={`${process.env.PUBLIC_URL}/assets/img/main/port-key.png`} alt=""/>
                 </div>
             </div>
 

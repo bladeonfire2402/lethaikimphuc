@@ -53,12 +53,12 @@ const GalleryItem = ({ Project }) => {
     return (
         <div
             ref={galleryItemRef}
-            className="relative gallery-items item-hover rounded-sm"
+            className="relative gallery-items item-hover rounded-sm overflow-hidden"
             onClick={()=>{HandleNavigate(Project.id)}}
         >
             <img
                 alt=""
-                className="rounded-sm gallery-items  w-full object-fill  "
+                className="rounded-sm gallery-items w-full  object-fill  "
                 src={Project.img[0]}
             />
             <div

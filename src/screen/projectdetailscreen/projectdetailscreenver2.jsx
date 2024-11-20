@@ -7,7 +7,7 @@ const ProjectDetailScreenVer2=()=>{
     const DisplayProject = ProjectData.find(project => project.id === parseInt(id)); // Parse id to a number if needed
     return(
         <div>
-        <div className="flex gap-7 pt-10">
+        <div className="flex gap-7 pt-10 text-primary">
             <div className="w-1/2">
                <h3 className="text-gilroy-bold text-2xl">{DisplayProject.title}</h3>
                <p className="mt-5 text-poppins pr-9">{DisplayProject.description}</p>
