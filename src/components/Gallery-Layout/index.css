@@ -5,5 +5,18 @@
 }
 
 .gallery-items{
-    height: 600px;
+    height: 580px;
+}
+
+.bright{
+    filter: brightness(0.5);
+}
+
+.trans-test{
+    background-color: rgba(41, 40, 89, 0.6);
+}
+
+.gallery-items:hover{
+    margin-top: -10px;
+    transition: 0.3s ease-in-out;
 }

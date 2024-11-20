@@ -5,6 +5,7 @@ import HomeScreen from './screen/homescreen/HomeScreen';
 import ProjectScreen from './screen/projectscreen/ProjectScreen';
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
+import ProjectDetailScreenVer1 from './screen/projectdetailscreen/projectdetailscreenver1';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
          <Routes>
            <Route path='/' element={<HomeScreen/>}/>
            <Route path='/project' element={<ProjectScreen/>}/>
+           <Route path='/projectDetailVer1/:id' element={<ProjectDetailScreenVer1/>}/>
+           <Route path='/projectDetailVer2/:id' element={<ProjectDetailScreenVer1/>}/>
+
            <Route/>
          </Routes>
       </div>
