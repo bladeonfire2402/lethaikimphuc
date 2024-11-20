@@ -91,6 +91,10 @@
   background-color: grey;
 }
 
+.bg-thirdly{
+  background-color: #FFDBEC;
+}
+
 /*class về layout*/
 .wrapper{
   width: 75%;
