@@ -20,10 +20,7 @@ const RecentWork=()=>{
                  <div className="col-span-2 row-span-5 row-start-6 grey-bg rounded-sm"><img className='' src={Project4.img[0]}/></div>
                  <div className="col-span-2 row-span-5 col-start-3 row-start-6 grey-bg rounded-sm"><img className='' src={Project5.img[0]}/></div>
                 <div className="col-span-2 row-span-5 col-start-5 row-start-6 grey-bg rounded-sm flex justify-center items-center">
-                    <div className="text-white ">
-                    <p className="text-poppins  text-white">See More</p>
-                    <EastIcon/>
-                    </div>
+                <img className='' src={Project6.img[0]}/>
                 </div>
                </div>
     
