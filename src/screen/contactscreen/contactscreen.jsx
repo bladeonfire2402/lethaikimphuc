@@ -1,3 +1,5 @@
+import { PrimaryButton } from "../../components/button/primarybutton"
+
 const ContactScreen=()=>{
     return(
         <div className="Contactscreen-wrapper pt-10">
@@ -29,6 +31,12 @@ const ContactScreen=()=>{
                 <label className="text-poppins text-primary mt-10">Message</label>
                 <input className="bg-thirdly px-2 py-10 rounded-sm mt-3" type="text" />
                 </div>
+                <div className="flex justify-center mt-10">
+                <PrimaryButton text={"Submit"} />
+
+                </div>
+
+             
             </form>
         </div>
     )
