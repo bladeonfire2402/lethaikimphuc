@@ -10,12 +10,31 @@ import ProjectDetailScreenVer2 from './screen/projectdetailscreen/projectdetails
 import ProjectDetailScreenVer3 from './screen/projectdetailscreen/projectdetailscreenver3';
 import ContactScreen from './screen/contactscreen/contactscreen';
 import PortfolioScreen from './screen/portfolioscreen/PortfolioScreen';
+import { useEffect, useState } from 'react';
+import HeaderMobile from './components/headerMobile/headerMobile';
 
 function App() {
+  const [screenState,usescreenState]=useState(window.innerWidth)
+
+  useEffect(() => {
+    const handleResize = () => {
+      usescreenState(window.innerWidth);
+    };
+
+    // Add event listener for resize
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+
   return (
     <div className="App flex flex-col  items-center bg-main">
       <div className='wrapper'>
-        <Header/>
+        {screenState>480?<div><Header/></div>:<div><HeaderMobile/></div>}
       </div>
       <div className='wrapper'>
          <Routes>

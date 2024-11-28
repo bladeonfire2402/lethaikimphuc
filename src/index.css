@@ -130,3 +130,10 @@
 .gap{
   gap: 2px;
 }
+
+@media (max-width: 480px) {
+  /* Styles for mobile devices */
+  .wrapper {
+    width: 100%;
+  }
+}

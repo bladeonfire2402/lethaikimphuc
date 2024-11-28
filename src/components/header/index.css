@@ -11,3 +11,7 @@ div:focus{
 nav:hover{
     color: #ff8dc8;
 }
+
+@media (max-width: 480px) {
+   
+}

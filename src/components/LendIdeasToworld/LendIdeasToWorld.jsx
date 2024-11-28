@@ -35,18 +35,18 @@ const LendIdeaToWorldSection = () => {
 
     return (
         <div className="LendIdeaToWorld-wrapper flex gap-10 justify-between">
-            <div className='w-7/12 '>
+            <div className='w-7/12 res-7-12 '>
                 <img className="-mt-11 img-main-screen" src={img} alt="" />
             </div>
-            <div className="w-6/12">
-                <div className="w-9/12">
-                    <h1 className="text-secondary text-gilroy-bold text-left">Lend the ideas to the world</h1>
+            <div className="w-6/12 res-6-12">
+                <div className="w-9/12 res-9-12">
+                    <h1 className="text-secondary text-gilroy-bold text-left h1-responsive">Lend the ideas to the world</h1>
                 </div>
                 <div className="">
                     <p className='text-primary text-poppins text-left mt-11 mb-5'>
                         Hi, there! Kim Phuc is here! With over three years of experience as a graphic designer and illustrator, I'm eager to bring your ideas to life!
                     </p>
-                    <div className='flex mt-14'>
+                    <div className='flex mt-14 btn-section'>
                         <PrimaryButton text={"More Details"} />
                     </div>
                 </div>

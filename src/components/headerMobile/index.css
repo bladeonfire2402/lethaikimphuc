@@ -1,0 +1,33 @@
+.side-bar{
+    width: 50%;
+    top: 0px;
+    left: 0px;
+    color: white;
+    height: 1000px;
+    animation: 0.5s slideright;
+    
+}
+
+.apeared{
+    animation: 3s fade;
+}
+
+@keyframes slideright{
+    0%{
+       left: -50%;
+    }
+    100%{
+        left: 0px;
+    }
+    
+}
+
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+   
+    100%{
+        opacity: 1;
+    }
+}

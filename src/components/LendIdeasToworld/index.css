@@ -13,3 +13,50 @@
     width: 95%;
     padding-right: 30px;
 }
+
+@media (max-width: 480px) {
+  .LendIdeaToWorld-wrapper{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+  }
+
+  .LendIdeaToWorld-wrapper .img-main-screen{
+    width: 100%;
+    height: 70%;
+    padding-right: 0px;
+  }
+
+  .LendIdeaToWorld-wrapper .res-7-12{
+    width: 80%;
+  }
+
+  .LendIdeaToWorld-wrapper .res-6-12{
+    width: 100%;
+    padding-right: .75rem;
+    padding-left: .75rem;
+
+  }
+
+  .LendIdeaToWorld-wrapper .res-9-12{
+    width: 100%;
+  }
+
+  .LendIdeaToWorld-wrapper .h1-responsive{
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .LendIdeaToWorld-wrapper p{
+    font-size: 13px;
+    margin-top: 15px;
+    text-align: justify;
+  }
+
+  .LendIdeaToWorld-wrapper .btn-section{
+    display:  flex;
+    justify-content: center;
+    margin: auto;
+  }
+}
