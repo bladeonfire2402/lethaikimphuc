@@ -8,7 +8,7 @@ const HeaderMobile=()=>{
     const [hidesideBar,sethidesideBar]=useState(true)
    
     return(
-        <div className="HeaderMobile px-3 py-4 flex justify-between items-center relative">
+        <div className="HeaderMobile px-5 py-4 flex justify-between items-center relative">
             {hidesideBar===true? 
              <div className="" onClick={()=>{sethidesideBar(false)}}>
              <MenuIcon fontSize="large"/>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slide Left to Right Animation</title>
+  <style>
+    .container {
+      width: 300px;
+      height: 200px;
+      overflow: hidden;
+      background: #f0f0f0;
+      transform: translateX(-100%); /* Ban đầu ẩn hoàn toàn bên trái */
+      animation: slideIn 0.5s forwards; /* Hiển thị */
+    }
+
+    .hidden {
+      animation: slideOut 0.5s forwards; /* Ẩn đi */
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateX(-100%); /* Bắt đầu từ bên trái */
+      }
+      to {
+        transform: translateX(0); /* Vào vị trí giữa */
+      }
+    }
+
+    @keyframes slideOut {
+      from {
+        transform: translateX(0); /* Từ giữa */
+      }
+      to {
+        transform: translateX(-100%); /* Đi về bên trái */
+      }
+    }
+
+    button {
+      margin: 10px 0;
+      padding: 10px 20px;
+    }
+  </style>
+</head>
+<body>
+  <button onclick="toggle()">Toggle Slide</button>
+  <div class="container" id="slide">
+    <p>Đây là nội dung sẽ trượt từ trái sang phải.</p>
+  </div>
+
+  <script>
+    function toggle() {
+      const container = document.getElementById("slide");
+      container.classList.toggle("hidden");
+    }
+  </script>
+</body>
+</html>
+    

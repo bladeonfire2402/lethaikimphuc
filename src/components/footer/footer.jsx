@@ -35,8 +35,6 @@ const Footer=()=>{
                       <img className='w-14 h-14' src={`${process.env.PUBLIC_URL}/assets/img/social/Behance.png`} alt='behance'/>
                       <img className='w-14 h-14' src={`${process.env.PUBLIC_URL}/assets/img/social/Instagram.png`} alt='behance'/>
                       <img className='w-14 h-14' src={`${process.env.PUBLIC_URL}/assets/img/social/facebook.png`} alt='behance'/>
-
-                 
                     </div>
                   </div>
                 </div>

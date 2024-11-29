@@ -136,4 +136,12 @@
   .wrapper {
     width: 100%;
   }
+
+  .res-hidden{
+    display: none;
+  }
+
+  .block-item{
+    height: 400px;
+  }
 }

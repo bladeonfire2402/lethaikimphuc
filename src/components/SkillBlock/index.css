@@ -1,0 +1,26 @@
+@media (max-width: 480px) {
+    .block-item{
+        width: 100%;
+    }
+    
+    .block-item .res-img{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 180px;
+        height: 180px;
+    }
+
+    .block-item h3{
+        font-size: 21px;
+        margin-top: 3px;
+        line-height: 28px;
+        
+    }
+
+    .block-item button{
+        width: 260px;
+        height: 39px;
+        padding: 0px;
+        border-radius: 3px;
+    }
+}

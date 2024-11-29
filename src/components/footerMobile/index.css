@@ -1,0 +1,17 @@
+.FooterMobile-wrapper{}
+
+.FooterMobile-wrapper h2{
+    font-size: 28px;
+    
+}
+
+
+.FooterMobile-wrapper .quicklink{
+    margin-top: 102px;
+}
+
+
+.FooterMobile-wrapper .quicklink nav,.FooterMobile-wrapper .Contacts p{
+    font-size: 18px;
+}
+

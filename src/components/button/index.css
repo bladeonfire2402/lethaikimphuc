@@ -7,3 +7,19 @@
     background: #292859;
     transition: 0.5s ease-in-out;
 }
+
+@media (max-width: 480px) {
+    .primary-btn{
+        padding: 0px;
+        font-size: 13px;
+        width: 165px;
+        height: 42px;
+    }
+
+    .secondary-btn{
+        width: 165px;
+        height: 43px;
+        padding: 0px;
+        font-size: 13px;
+    }
+}

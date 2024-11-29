@@ -1,0 +1,25 @@
+@media (max-width: 480px) {
+    .DiscussSection-wrapper {
+        width: 75%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 0px;
+        margin-top: 136px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 331px;
+    }
+
+    .DiscussSection-wrapper h2{
+        font-size: 28px;
+        text-align: center;
+        line-height: 1.4;
+    
+        
+    }
+
+    .DiscussSection-wrapper h4{
+        font-size: 20px;
+    }
+}

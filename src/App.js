@@ -12,6 +12,7 @@ import ContactScreen from './screen/contactscreen/contactscreen';
 import PortfolioScreen from './screen/portfolioscreen/PortfolioScreen';
 import { useEffect, useState } from 'react';
 import HeaderMobile from './components/headerMobile/headerMobile';
+import FooterMobile from './components/footerMobile/footerMobile';
 
 function App() {
   const [screenState,usescreenState]=useState(window.innerWidth)
@@ -45,11 +46,14 @@ function App() {
            <Route path='/projectDetailVer3/:id' element={<ProjectDetailScreenVer3/>}/>
            <Route path='/contact/' element={<ContactScreen/>}/>
            <Route path='/about/' element={<PortfolioScreen/>}/>
-
            <Route/>
          </Routes>
       </div>
-      <Footer/>
+      {
+      screenState>480?<div className='w-full'><Footer/></div>
+      :
+      <div className='wrapper '><FooterMobile/></div>
+      }
     </div>
   );
 }

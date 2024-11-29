@@ -1,0 +1,19 @@
+@media (max-width: 480px) {
+    .SkillAndExperience-wrapper{
+        margin-top:100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .SkillAndExperience-wrapper  .res-h2{
+        font-size: 32px;
+        text-align: center;
+        width: 75%;
+    }
+
+    .SkillAndExperience-wrapper .res-col{
+        flex-direction: column;
+        width: 75%;
+    }
+}

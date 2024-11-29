@@ -1,0 +1,21 @@
+@media (max-width: 480px) {
+    .RecentWork-wrapper h2{
+        width: 75%;
+        font-size: 32px ;
+        margin-bottom: 48px;
+        gap: 16px;
+        
+    }
+
+    .RecentWork-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .RecentWork-wrapper .res-flex{
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+    }
+}

@@ -40,10 +40,10 @@ const LendIdeaToWorldSection = () => {
             </div>
             <div className="w-6/12 res-6-12">
                 <div className="w-9/12 res-9-12">
-                    <h1 className="text-secondary text-gilroy-bold text-left h1-responsive">Lend the ideas to the world</h1>
+                    <h1 className="text-secondary text-gilroy-bold text-left h1-responsive res-hidden">Lend the ideas to the world</h1>
                 </div>
-                <div className="">
-                    <p className='text-primary text-poppins text-left mt-11 mb-5'>
+                <div className="flex flex-col items-center">
+                    <p className='text-primary text-poppins text-left mt-11 mb-5 res-p'>
                         Hi, there! Kim Phuc is here! With over three years of experience as a graphic designer and illustrator, I'm eager to bring your ideas to life!
                     </p>
                     <div className='flex mt-14 btn-section'>

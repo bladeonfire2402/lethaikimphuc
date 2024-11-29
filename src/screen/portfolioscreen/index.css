@@ -7,3 +7,28 @@
    
     height: 300px;
 }
+
+@media (max-width: 480px) {
+    .Portfolio-wrapper{
+
+    } 
+
+    .Portfolio-wrapper .first-info{
+        flex-direction: column;
+    }
+
+    .Portfolio-wrapper .first-info .res-full{
+        width: 100%;
+    }
+
+    .Portfolio-wrapper .res-flex{
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .Portfolio-wrapper .res-mt-10 {
+        margin-top: 24px;
+    }
+}
