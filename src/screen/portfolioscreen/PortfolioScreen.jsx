@@ -30,7 +30,7 @@ const PortfolioScreen=()=>{
 
                 </div>
                 <div className="">
-                <h1 className="text-gilroy-bold text-3xl mb-5">Experience</h1>
+                <h1 className="text-gilroy-bold text-3xl mb-5 res-mt-10 {">Experience</h1>
                     <p className="text-poppins text-primary">Illustrator artist at Phuong Nam Printing Joint Stock Co.</p>
                     <p className="text-poppins text-primary mt-5">Personal project:</p>
                     <p className="text-poppins text-primary">Worked on over 50 artworks and booking projects, Of which 90% were scored Distinction and satisfaction
@@ -39,7 +39,7 @@ const PortfolioScreen=()=>{
                 </div>
             </div>
 
-            <div className="grid grid-cols-2 mt-16 gap-16 text-primary res-flex res-mt-10">
+            <div className="grid grid-cols-2 mt-16 gap-16 text-primary res-flex res-mt-10 res-mt-10 {">
                 <div>
                    <h1 className="text-gilroy-bold text-3xl mb-5">Software Skills</h1>
                    <p className="text-poppins text-primary">Programs I can use proficiently:</p>

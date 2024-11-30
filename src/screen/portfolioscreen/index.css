@@ -29,10 +29,14 @@
     }
 
     .Portfolio-wrapper .res-mt-10 {
-        margin-top: 24px;
+        margin-top: 28px;
     }
 
     .Portfolio-wrapper .keyword-img , .Portfolio-wrapper .software-img{
         height: auto;
+    }
+
+    .Portfolio-wrapper .keyword-img{
+        margin-top: 10px;
     }
 }
