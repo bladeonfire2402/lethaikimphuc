@@ -44,7 +44,7 @@ function App() {
            <Route path='/projectDetailVer1/:id' element={<ProjectDetailScreenVer1/>}/>
            <Route path='/projectDetailVer2/:id' element={<ProjectDetailScreenVer2/>}/>
            <Route path='/projectDetailVer3/:id' element={<ProjectDetailScreenVer3/>}/>
-           <Route path='/contact/' element={<ContactScreen/>}/>
+           <Route path='/contact/' element={<ContactScreen witdh={screenState}/>}/>
            <Route path='/about/' element={<PortfolioScreen/>}/>
            <Route/>
          </Routes>
