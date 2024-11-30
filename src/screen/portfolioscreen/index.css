@@ -31,4 +31,8 @@
     .Portfolio-wrapper .res-mt-10 {
         margin-top: 24px;
     }
+
+    .Portfolio-wrapper .keyword-img , .Portfolio-wrapper .software-img{
+        height: auto;
+    }
 }
