@@ -2,8 +2,6 @@
 import GalleryLayout from '../../components/Gallery-Layout/Gallery-Layout'
 import './index.css'
 
-
-
 const ProjectScreen = () =>{
     return(
         <div className="ProjectScreen-wrapper pt-10">

@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
+import './index.css'
 
 const GalleryItem = ({ Project }) => {
     const galleryItemRef = useRef(null); // Ref for the gallery item

@@ -2,3 +2,13 @@
     font-size: 70px;
     line-height: 1.3;
 }
+
+@media (max-width: 480px) {
+    .ProjectScreen-wrapper h1{
+        font-size: 36px;
+    }   
+
+    .ProjectScreen-wrapper {
+        padding-top: 20px;
+    }
+}

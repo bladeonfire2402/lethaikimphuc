@@ -2,6 +2,7 @@ import { ProjectData } from "../../assets/data/data"
 import { useNavigate,useState  } from 'react-router-dom';
 import './index.css'
 import GallerryItem from "../GalleryItem/GalleryItem";
+
 const GalleryLayout=()=>{
     const Project1=ProjectData[0]
     const Project2=ProjectData[1]
@@ -11,7 +12,7 @@ const GalleryLayout=()=>{
     const Project6=ProjectData[5]
 
     return(
-        <div className="GalleryLayout-wrapper grid pt-16">
+        <div className="GalleryLayout-wrapper grid pt-16 res-flex">
             <GallerryItem Project={Project1}/>
             <GallerryItem Project={Project2}/>
             <GallerryItem Project={Project3}/>
