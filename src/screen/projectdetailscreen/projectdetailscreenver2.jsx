@@ -9,6 +9,14 @@ const ProjectDetailScreenVer2=({func})=>{
     const { id } = useParams(); // Get the project ID from the route parameters
     const DisplayProject = ProjectData.find(project => project.id === parseInt(id)); // Parse id to a number if needed
  
+    const slowScrollUp = () => {
+      window.scrollTo({
+        top: 0, // Cuộn đến đầu trang (Y = 0)
+        behavior: 'smooth' // Thêm hiệu ứng cuộn mượt mà
+      });
+    }
+    
+    slowScrollUp();
     const navigate=useNavigate()
 
     const testid=id
