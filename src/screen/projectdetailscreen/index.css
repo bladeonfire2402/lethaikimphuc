@@ -7,8 +7,9 @@
 }
 
 @media (max-width:480px){
+    /*ver 1*/
     .ProjectDetailVer1-wrapper {
-        padding-top: 5px;
+        padding-top: 0px;
     }
 
     .ProjectDetailVer1-wrapper .res-flex{
@@ -45,6 +46,12 @@
         gap: 20px;
     }
 
+    .ProjectDetailVer1-wrapper .res-mt-20{
+        margin-top: 15px;
+    }
+
+   
+
     .ProjectDetailVer1-wrapper .res-gap-10{
         gap: 10px;
     }
@@ -62,10 +69,51 @@
         text-align: center;
     }
 
-    .ProjectDetailVer1-wrapper .-res-mB-32{
-        margin-bottom: -128px;
+   
+
+
+    /*ver 2*/
+    .ProjectDetailVer2-wrapper{
+        flex-direction: column;
+    }
+
+    .ProjectDetailVer2-wrapper .res-full{
+        width: 100%;
+    }
+
+    .ProjectDetailVer2-wrapper .child:nth-child(1){
+        order: 2;
+    }
+
+    .ProjectDetailVer2-wrapper .child:nth-child(2){
+        order: 1;
+    }
+
+    .ProjectDetailVer2-wrapper .res-jus-center{
+        justify-content: center;
+    }
+
+    .ProjectDetailVer2-wrapper .res-px{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .switch h3{
+        font-size: 18px;
+    }
+
+     .switch .res-px{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+
+    .switch .res-px{
+        padding-left: 20px;
+        padding-right: 20px;
 
     }
+
 
     
 

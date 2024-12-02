@@ -13,6 +13,15 @@
 
     } 
 
+    .Portfolio-wrapper .res-center{
+        text-align: center;
+    }
+
+    .Portfolio-wrapper .res-justify{
+        text-align: justify;
+
+    }
+
     .Portfolio-wrapper .first-info{
         flex-direction: column;
     }

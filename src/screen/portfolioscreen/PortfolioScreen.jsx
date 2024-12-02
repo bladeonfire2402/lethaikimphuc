@@ -6,9 +6,9 @@ const PortfolioScreen=()=>{
             <div className="flex justify-between gap-5 items-center px-5 first-info">
                <div className="w-1/2 flex justify-end res-full"><img className="w-12/12" src={`${process.env.PUBLIC_URL}/assets/img/main/porto.png`} alt="Le Thai Kim Phuc"/></div>
                <div className="w-1/2 res-full">
-                  <h1 className="text-missing-love text-secondary text-7xl mb-10">Le Thai Kim Phuc</h1>
-                  <p className="text-poppins mb-5 text-primary" >I’m a 20 y/o graphic designer based in HCM City, Vietnam.</p>  
-                  <p className="text-poppins  text-primary">Major in illustration, editorial design. When it come to art, I love trying out new styles, my current obsession is fun and bright art! I watched numerous cartoons and admired wonderfully designed books as a child, which led me to become a designer and artist. I am an independent and detailoriented designer who enjoys working in teams. </p>
+                  <h1 className="text-missing-love text-secondary text-7xl mb-10 res-center">Le Thai Kim Phuc</h1>
+                  <p className="text-poppins mb-5 text-primary res-justify" >I’m a 20 y/o graphic designer based in HCM City, Vietnam.</p>  
+                  <p className="text-poppins  text-primary res-justify">Major in illustration, editorial design. When it come to art, I love trying out new styles, my current obsession is fun and bright art! I watched numerous cartoons and admired wonderfully designed books as a child, which led me to become a designer and artist. I am an independent and detailoriented designer who enjoys working in teams. </p>
                </div>    
             </div>
 
@@ -31,9 +31,9 @@ const PortfolioScreen=()=>{
                 </div>
                 <div className="">
                 <h1 className="text-gilroy-bold text-3xl mb-5 res-mt-10 {">Experience</h1>
-                    <p className="text-poppins text-primary">Illustrator artist at Phuong Nam Printing Joint Stock Co.</p>
-                    <p className="text-poppins text-primary mt-5">Personal project:</p>
-                    <p className="text-poppins text-primary">Worked on over 50 artworks and booking projects, Of which 90% were scored Distinction and satisfaction
+                    <p className="text-poppins text-primary res-justify">Illustrator artist at Phuong Nam Printing Joint Stock Co.</p>
+                    <p className="text-poppins text-primary mt-5 font-semibold mb-2">Personal project:</p>
+                    <p className="text-poppins text-primary res-justify">Worked on over 50 artworks and booking projects, Of which 90% were scored Distinction and satisfaction
                     Guided the group's model-making project, which was shown and scored highest.</p>
 
                 </div>

@@ -12,7 +12,7 @@ const GalleryLayout=()=>{
     const Project6=ProjectData[5]
 
     return(
-        <div className="GalleryLayout-wrapper grid pt-16 res-flex">
+        <div className="GalleryLayout-wrapper mb-32 grid pt-16 res-flex">
             <GallerryItem Project={Project1}/>
             <GallerryItem Project={Project2}/>
             <GallerryItem Project={Project3}/>

@@ -2,7 +2,7 @@ import './index.css'
 
 const FooterMobile=()=>{
     return(
-        <div className="FooterMobile-wrapper mt-32 bg-primary py-14 flex flex-col  ">
+        <div className="FooterMobile-wrapper bg-primary py-14 flex flex-col  ">
             <div className="flex justify-center"><img alt="" src={`${process.env.PUBLIC_URL}/assets/img/main/whitelogo.png`}/></div>
             <div className="px-14 quicklink ">
                 <h2 className="uppercase text-gilroy-bold text-white">Quick Link</h2>

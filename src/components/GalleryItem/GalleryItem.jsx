@@ -43,7 +43,6 @@ const GalleryItem = ({ Project }) => {
         }
         else if(id===5){
             navigate(`/projectDetailVer1/${id}`)
-            
         }
         else if(id===6){
             navigate(`/projectDetailVer2/${id}`)
