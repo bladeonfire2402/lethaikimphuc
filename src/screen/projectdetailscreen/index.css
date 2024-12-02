@@ -5,3 +5,69 @@
 .text-content h3{
     line-height: 1.4;
 }
+
+@media (max-width:480px){
+    .ProjectDetailVer1-wrapper {
+        padding-top: 5px;
+    }
+
+    .ProjectDetailVer1-wrapper .res-flex{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ProjectDetailVer1-wrapper .res-p{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 30px;
+    }
+
+    .ProjectDetailVer1-wrapper .res-p  .res-full{
+        width: 100%;
+    }
+
+    .ProjectDetailVer1-wrapper .res-p  .res-full p{
+        text-align: justify;
+    }
+
+    .ProjectDetailVer1-wrapper .res-p  .res-full h3{
+        font-size: 28px;
+        width: 100%;
+        text-align: center;    
+        margin-bottom: 10px;
+    }
+
+    .ProjectDetailVer1-wrapper .res-center{
+        align-items: center;
+    }
+
+    .ProjectDetailVer1-wrapper .res-gap{
+        gap: 20px;
+    }
+
+    .ProjectDetailVer1-wrapper .res-gap-10{
+        gap: 10px;
+    }
+
+    .ProjectDetailVer1-wrapper .switch h3{
+        font-size: 18px;
+    }
+
+    .ProjectDetailVer1-wrapper .switch .res-px{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .ProjectDetailVer1-wrapper .res-p .res-full  .res-text-center{
+        text-align: center;
+    }
+
+    .ProjectDetailVer1-wrapper .-res-mB-32{
+        margin-bottom: -128px;
+
+    }
+
+    
+
+
+}

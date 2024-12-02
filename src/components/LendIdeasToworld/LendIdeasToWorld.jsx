@@ -42,7 +42,7 @@ const LendIdeaToWorldSection = () => {
                 <div className="w-9/12 res-9-12">
                     <h1 className="text-secondary text-gilroy-bold text-left h1-responsive res-hidden">Lend the ideas to the world</h1>
                 </div>
-                <div className="flex flex-col items-center">
+                <div className="flex flex-col res-items-center">
                     <p className='text-primary text-poppins text-left mt-11 mb-5 res-p'>
                         Hi, there! Kim Phuc is here! With over three years of experience as a graphic designer and illustrator, I'm eager to bring your ideas to life!
                     </p>

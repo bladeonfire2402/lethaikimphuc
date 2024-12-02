@@ -8,6 +8,10 @@
     
 }
 
+.HeaderMobile .side-bar{
+    border-radius: 0px 5px 0px 10px;
+}
+
 .apeared{
     animation: 3s fade;
 }

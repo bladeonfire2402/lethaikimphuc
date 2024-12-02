@@ -7,7 +7,7 @@ import './index.css'
 import 'swiper/css';
 import 'swiper/css/autoplay';
 
-export const CustomSwiper = ({imgList}) => {
+export const  CustomSwiper = ({imgList,width}) => {
   return (
     <Swiper
       modules={[Autoplay]}
@@ -17,7 +17,7 @@ export const CustomSwiper = ({imgList}) => {
       }}
       loop={true} // Ensures infinite looping
       spaceBetween={50}
-      slidesPerView={2}
+      slidesPerView={width>480? 2 : 1}
     >
       {imgList.map((img)=>(
         <SwiperSlide className=''>
