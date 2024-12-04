@@ -98,6 +98,18 @@
         padding-right: 20px;
     }
 
+    .ProjectDetailVer2-wrapper .res-text-center{
+        text-align: center;
+    }
+
+    .ProjectDetailVer2-wrapper .res-align-justify{
+        text-align: justify;
+    }
+
+    .ProjectDetailVer2-wrapper .re-p{
+        padding: 0px;
+    }
+
     .switch h3{
         font-size: 18px;
     }

@@ -72,8 +72,8 @@ const ProjectDetailScreenVer2=({func})=>{
         <div>
         <div className="ProjectDetailVer2-wrapper flex gap-7 pt-10 text-primary">
             <div className="w-1/2 res-full child res-px">
-               <h3 className="text-gilroy-bold text-2xl">{DisplayProject.title}</h3>
-               <p className="mt-5 text-poppins pr-9">{DisplayProject.description}</p>
+               <h3 className="text-gilroy-bold text-2xl res-text-center">{DisplayProject.title}</h3>
+               <p className="mt-5 text-poppins pr-9 res-align-justify re-p">{DisplayProject.description}</p>
                <div className="flex text-content gap-20 mt-8">
                   <div className="flex flex-col gap-4">
                     <div>

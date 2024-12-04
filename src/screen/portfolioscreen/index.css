@@ -48,4 +48,12 @@
     .Portfolio-wrapper .keyword-img{
         margin-top: 10px;
     }
+
+    .Portfolio-wrapper .res-hidden{
+        display: none;
+    }
+
+    .Portfolio-wrapper .margin-bottom{
+        margin-bottom: 30px;
+    }
 }

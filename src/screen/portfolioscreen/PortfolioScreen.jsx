@@ -12,7 +12,7 @@ const PortfolioScreen=()=>{
                </div>    
             </div>
 
-            <div className="grid  grid-cols-2 gap-4 mt-16 res-mt-10 text-primary res-flex">
+            <div className="grid  grid-cols-2 gap-4 mt-16 res-mt-10 text-primary res-flex margin-bottom">
                 <div className="">
                     <h1 className="text-gilroy-bold text-3xl mb-5">Education</h1>
                     <p className="text-poppins">(2021 - Now) <strong> University of Greenwich Vietnam</strong></p>
@@ -39,7 +39,7 @@ const PortfolioScreen=()=>{
                 </div>
             </div>
 
-            <div className="grid grid-cols-2 mt-16 gap-16 text-primary res-flex res-mt-10 res-mt-10 {">
+            <div className="grid grid-cols-2 mt-16 gap-16 text-primary res-flex res-mt-10 res-mt-10 res-hidden">
                 <div>
                    <h1 className="text-gilroy-bold text-3xl mb-5">Software Skills</h1>
                    <p className="text-poppins text-primary">Programs I can use proficiently:</p>
