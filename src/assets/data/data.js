@@ -78,15 +78,18 @@ export const Project7Img=[
 export const SkillAndExperienceData=[
     {
         title:"Illustration",
-        img:`${process.env.PUBLIC_URL}/assets/img/skillandexperience/illustration.png`
+        img:`${process.env.PUBLIC_URL}/assets/img/skillandexperience/illustration.png`,
+        serviceState:"Illustration"
     },
     {
         title:"Brand Identity",
-        img:`${process.env.PUBLIC_URL}/assets/img/skillandexperience/brand.png`
+        img:`${process.env.PUBLIC_URL}/assets/img/skillandexperience/brand.png`,
+        serviceState:"Brand"
     },
     {
         title:"Editorial Design",
-        img:`${process.env.PUBLIC_URL}/assets/img/skillandexperience/editorial.png`
+        img:`${process.env.PUBLIC_URL}/assets/img/skillandexperience/editorial.png`,
+        serviceState:"Editorial"
     },
 ]
 

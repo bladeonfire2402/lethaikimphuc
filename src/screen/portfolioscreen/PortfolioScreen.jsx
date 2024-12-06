@@ -1,6 +1,16 @@
 
 import './index.css'
 const PortfolioScreen=()=>{
+    
+    const slowScrollUp = () => {
+        window.scrollTo({
+          top: 0, // Cuộn đến đầu trang (Y = 0)
+          behavior: 'smooth' // Thêm hiệu ứng cuộn mượt mà
+        });
+      }
+    slowScrollUp()
+
+
     return(
         <div className="Portfolio-wrapper pt-12">
             <div className="flex justify-between gap-5 items-center px-5 first-info">

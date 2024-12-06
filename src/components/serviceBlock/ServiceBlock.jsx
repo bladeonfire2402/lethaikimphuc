@@ -2,7 +2,7 @@ import './index.css'
 
 const ServiceBlock=({service})=>{
     return(
-        <div className="ServiceBlock-wrapper rounded-md border-2 px-14 py-8 text-gilroy-bold">
+        <div className="ServiceBlock-wrapper rounded-md border-2 px-14 py-8 text-gilroy-bold" id={service.title}>
             <h1 className='text-secondary'>{service.title}</h1>
             <h3 className='subtitle'>{service.subtitle}</h3>
             <p className='text-poppins mt-5 content'>{service.content}</p>

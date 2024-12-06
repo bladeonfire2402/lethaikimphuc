@@ -10,14 +10,18 @@ import ProjectDetailScreenVer2 from './screen/projectdetailscreen/projectdetails
 import ProjectDetailScreenVer3 from './screen/projectdetailscreen/projectdetailscreenver3';
 import ContactScreen from './screen/contactscreen/contactscreen';
 import PortfolioScreen from './screen/portfolioscreen/PortfolioScreen';
-import { useEffect, useState } from 'react';
+import { createContext, useEffect, useState } from 'react';
 import HeaderMobile from './components/headerMobile/headerMobile';
 import FooterMobile from './components/footerMobile/footerMobile';
 import ServiceScreen from './screen/servicescreen/ServiecScreen';
 
+export const serviceContext=createContext()
+
 function App() {
   const [screenState,usescreenState]=useState(window.innerWidth)
+  const [serviceState,useserviceState]=useState("meomeo")
 
+  
   useEffect(() => {
     const handleResize = () => {
       usescreenState(window.innerWidth);
@@ -34,7 +38,8 @@ function App() {
 
 
   return (
-    <div className="App flex flex-col  items-center bg-main">
+    <serviceContext.Provider value={{serviceState,useserviceState}}>
+      <div className="App flex flex-col  items-center bg-main">
       <div className='wrapper'>
         {screenState>480?<div><Header/></div>:<div><HeaderMobile/></div>}
       </div>
@@ -57,7 +62,11 @@ function App() {
       <div className='wrapper '><FooterMobile/></div>
       }
     </div>
+
+    </serviceContext.Provider>
   );
 }
+
+
 
 export default App;

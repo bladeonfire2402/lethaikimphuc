@@ -6,3 +6,7 @@
     font-size: 34px ;
     width: 80%;
 }
+
+.ServiceScreen-wrapper {
+    scroll-behavior: smooth;
+}
