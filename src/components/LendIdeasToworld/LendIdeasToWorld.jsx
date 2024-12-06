@@ -1,8 +1,10 @@
-import { useEffect, useState } from "react";
+
 import { PrimaryButton } from "../button/primarybutton";
 import './index.css';
 import { useNavigate } from "react-router-dom";
-import { CustomSwiperVer2 } from "../customSwiper/customSwiperVer2";
+
+import { CustomSwiperVer3 } from "../customSwiper/customSwiperVer3";
+
 
 const LendIdeaToWorldSection = () => {
     const navigate=useNavigate()
@@ -12,7 +14,7 @@ const LendIdeaToWorldSection = () => {
     return (
         <div className="LendIdeaToWorld-wrapper flex gap-10 justify-between">
             <div className='w-6/12 res-7-12 pr-2 '>
-               <CustomSwiperVer2 imgList={imgList}/>
+               <CustomSwiperVer3 imgList={imgList}/>
             </div>
             <div className="w-6/12 res-6-12">
                 <div className="w-9/12 res-9-12">

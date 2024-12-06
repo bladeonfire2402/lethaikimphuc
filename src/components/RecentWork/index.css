@@ -1,3 +1,40 @@
+.RecentWork-wrapper .special{
+    background-color: rgb(60, 59, 59);
+    opacity: 0.7;
+}
+
+.RecentWork-wrapper .project-six img {
+    height: 100%;
+}
+
+.RecentWork-wrapper .project-six:hover img, .special{
+
+    animation: 0.5s motion;
+
+}
+
+.RecentWork-wrapper .project-six:hover{
+    animation: 0.5s motion;
+}
+
+
+
+@keyframes motion{
+    0% {
+        /* Styles at the start of the animation */
+        margin-top: 0px;
+      }
+      100% {
+        /* Styles at the end of the animation */
+        margin-top: -10px;
+      }
+}
+
+.RecentWork-wrapper h3{
+    transform: translate(-50%, -50%);
+
+}
+
 @media (max-width: 480px) {
     .RecentWork-wrapper h2{
         width: 75%;
@@ -20,5 +57,9 @@
         flex-direction: column;
         width: 75%;
         gap: 2rem;
+    }
+
+    .RecentWork-wrapper .project-six img, .RecentWork-wrapper .RecentWork-items{
+        height: 300px;
     }
 }

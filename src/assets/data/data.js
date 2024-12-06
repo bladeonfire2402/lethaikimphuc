@@ -141,12 +141,12 @@ export const ProjectData = [
     },
     {
         id: 6,
-        title: "APPLY AI PROJECT",
-        description: `The user requires 4 A3 pages for Design Engagement, consisting of 1 A3 PDF page including a hero picture and a one-sentence description, as well as 3 A3 PDF boards describing the proposal. Ultimately, this exercise focuses on the influence of Artificial Intelligence on our world.`,
-        projectType:"School Project",
+        title: "Serenity Circle",
+        description: `"Serenity Circle" is a luxury wellness brand designed to empower women by offering a holistic sanctuary where self-care, rejuvenation, and inner peace take center stage. With a focus on mind, body, and soul, Serenity Circle provides a nurturing environment where women can reconnect with themselves, restore balance, and embrace wellness practices that elevate their physical and emotional health.`,
+        projectType:"Personal Project",
         toolUsed:"Illustrator & Photoshop",
-        Role:"Editorial Design",
-        img: Project7Img
+        Role:"Brading",
+        img: Project6Img
     },
     {
         id: 7,

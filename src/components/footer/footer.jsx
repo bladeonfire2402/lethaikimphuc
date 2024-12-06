@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 import './index.css'
+import { AccessPage } from '../../func/access'
 
 const Footer=()=>{
   const naviagte=useNavigate()
@@ -34,9 +35,9 @@ const Footer=()=>{
                   <div className='text-left'>
                     <h2 className="text-white text-gilroy-bold text-3xl uppercase text-left ">Follow</h2>
                     <div className="flex mt-6 gap-5">
-                      <img className='w-14 h-14' src={`${process.env.PUBLIC_URL}/assets/img/social/Behance.png`} alt='behance'/>
-                      <img className='w-14 h-14' src={`${process.env.PUBLIC_URL}/assets/img/social/Instagram.png`} alt='behance'/>
-                      <img className='w-14 h-14' src={`${process.env.PUBLIC_URL}/assets/img/social/facebook.png`} alt='behance'/>
+                      <img className='w-14 h-14' src={`${process.env.PUBLIC_URL}/assets/img/social/Behance.png`} alt='behance' onClick={()=>{AccessPage("https://www.behance.net/lethaikimphuc")}}/>
+                      <img className='w-14 h-14' src={`${process.env.PUBLIC_URL}/assets/img/social/Instagram.png`} alt='behance' onClick={()=>{AccessPage("https://www.instagram.com/ltkimp/")}}/>
+                      <img className='w-14 h-14' src={`${process.env.PUBLIC_URL}/assets/img/social/facebook.png`} alt='behance' onClick={()=>{AccessPage("https://www.facebook.com/lethaikimphuc/")}}/>
                     </div>
                   </div>
                 </div>

@@ -1,19 +1,21 @@
 // Import Swiper core and required modules
-import { Autoplay } from 'swiper/modules';
+import { Autoplay, EffectFade } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/autoplay';
+import 'swiper/css/effect-fade';
 
-export const CustomSwiperVer2 = ({imgList}) => {
+export const CustomSwiperVer3 = ({imgList}) => {
   return (
     <Swiper
-      modules={[Autoplay]}
+      modules={[Autoplay,EffectFade]}
       autoplay={{
-        delay: 1500, // 3 seconds delay
+        delay: 50, 
         disableOnInteraction: false, // Keeps autoplay active even after user interaction
       }}
+      effect={'fade'}
       loop={true} // Ensures infinite looping
       spaceBetween={50}
       slidesPerView={1}

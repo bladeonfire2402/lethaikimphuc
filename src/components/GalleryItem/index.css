@@ -1,7 +1,15 @@
+.gallery-items{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+}
+
 @media (max-width: 480px) {
     .gallery-items img{
         width: fit-content;
         height: auto;
+        min-height: 380px;
+
     }   
 
     .gallery-items{

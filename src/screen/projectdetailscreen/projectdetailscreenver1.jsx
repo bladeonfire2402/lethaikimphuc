@@ -2,6 +2,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { ProjectData } from "../../assets/data/data";
 import  { CustomSwiper } from "../../components/customSwiper/customSwiper";
 import './index.css'
+import { CustomSwiperVer2 } from "../../components/customSwiper/customSwiperVer2";
 
 const ProjectDetailScreenVer1 = () => {
     const { id } = useParams(); // Get the project ID from the route parameters
@@ -44,13 +45,13 @@ const ProjectDetailScreenVer1 = () => {
     const navigateTonext=(id)=>{
       const navnextver1=`/projectDetailVer1/${convertNumber(id)+1}`
       const navnextver2=`/projectDetailVer2/${convertNumber(id)+1}`
-      if ( id==1 || id==4){
+      if ( id==1 || id==4 || id==5){
         navigate(navnextver1)
       }
       else if(id==2 || id==3){
         navigate(navnextver2)
       }
-      else if(id==5){
+      else if(id==6){
         navigate(`/projectDetailVer1/${1}`)
       }
       
@@ -69,11 +70,15 @@ const ProjectDetailScreenVer1 = () => {
           navigate(`/projectDetailVer2/${6}`)
         }
     }
+    const ProjectSixImg=[...DisplayProject.img.slice(0,2),...DisplayProject.img.slice(6, 7)]
+    const OtherProjectSixImg=DisplayProject.img.slice(3,6)
+  
 
     return (
         <div className="ProjectDetailVer1-wrapper pt-10">
             <div className="mt-3">
-            <CustomSwiper imgList={DisplayProject.img.slice(1)} width={width}/>
+              {DisplayProject.id===6?<CustomSwiper imgList={ProjectSixImg} width={width}/> :<CustomSwiper imgList={DisplayProject.img} width={width}/>}
+        
             <div className="mt-11 flex justify-between gap-20 text-primary res-flex res-p res-gap">
                 <div className="w-1/2 flex flex-col items-start res-full res-mt">
                    <h3 className="text-gilroy-bold text-2xl text-primary">{DisplayProject.title}</h3>
@@ -100,8 +105,8 @@ const ProjectDetailScreenVer1 = () => {
                 </div>
 
             </div>
-            {DisplayProject.id===5 ? <div className="mt-16">
-                <img src={DisplayProject.img[2]} className="w-full"  alt=""/>
+            {DisplayProject.id===6 ? <div className="mt-16">
+              <CustomSwiperVer2 imgList={OtherProjectSixImg} width={width}/>
             </div> : <div></div>}
             </div>
             <div className="mt-14 gap-5 flex flex-col switch res-gap-10 -res-m-32 ">

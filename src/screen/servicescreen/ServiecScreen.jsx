@@ -45,8 +45,7 @@ const ServiceScreen=()=>{
               });
 
         }
-        
-
+    
     }
 
     useEffect(() => {

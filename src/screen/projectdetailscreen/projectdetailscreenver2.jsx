@@ -1,8 +1,6 @@
 import { useNavigate, useParams } from "react-router-dom";
 import { ProjectData } from "../../assets/data/data";
 import { CustomSwiperVer2 } from "../../components/customSwiper/customSwiperVer2";
-import { useState } from "react";
-import { reload } from "../../func/reload";
 
 
 const ProjectDetailScreenVer2=({func})=>{
@@ -43,7 +41,7 @@ const ProjectDetailScreenVer2=({func})=>{
     const navigateTonext=(id)=>{
       const navnextver1=`/projectDetailVer1/${convertNumber(id)+1}`
       const navnextver2=`/projectDetailVer2/${convertNumber(id)+1}`
-      if ( id==1 || id==4){
+      if ( id==1 || id==4 || id==5){
         navigate(navnextver1)
       }
       else if(id==2 || id==3){
