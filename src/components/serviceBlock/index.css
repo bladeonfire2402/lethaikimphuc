@@ -1,0 +1,20 @@
+.ServiceBlock-wrapper{
+    border-color: #292859;
+}
+
+.ServiceBlock-wrapper h1{
+    font-size: 54px;
+    line-height: 80px;
+    margin-bottom: 14px;
+}
+
+.ServiceBlock-wrapper .subtitle{
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.ServiceBlock-wrapper .content{
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
