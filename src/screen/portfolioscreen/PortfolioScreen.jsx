@@ -1,18 +1,28 @@
 
+import { useEffect } from 'react';
 import './index.css'
+import SmoothScroll from 'smooth-scroll';
 const PortfolioScreen=()=>{
-    
     const slowScrollUp = () => {
-        window.scrollTo({
-          top: 0, // Cuộn đến đầu trang (Y = 0)
-          behavior: 'smooth' // Thêm hiệu ứng cuộn mượt mà
-        });
-      }
-    slowScrollUp()
+      // Khởi tạo đối tượng SmoothScroll
+      const scroll = new SmoothScroll('html', {
+        speed: 1000, // Tốc độ cuộn (500ms)
+        speedAsDuration: true // Cài đặt tốc độ cuộn theo thời gian
+      });
+    
+      // Cuộn lên đầu trang
+      scroll.animateScroll(0); // Cuộn đến vị trí 0 (đầu trang)
+    };
+    
+    // Sử dụng hàm slowScrollUp
+    slowScrollUp();
+    
+
+
 
 
     return(
-        <div className="Portfolio-wrapper pt-12">
+        <div className="Portfolio-wrapper pt-12" id='Portfolio-wrapper'>
             <div className="flex justify-between gap-5 items-center px-5 first-info">
                <div className="w-1/2 flex justify-end res-full"><img className="w-12/12" src={`${process.env.PUBLIC_URL}/assets/img/main/porto.png`} alt="Le Thai Kim Phuc"/></div>
                <div className="w-1/2 res-full">

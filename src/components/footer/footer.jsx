@@ -18,7 +18,7 @@ const Footer=()=>{
                     <p className="text-white text-poppins text-left font-light cursor-pointer" onClick={()=>{naviagte('/');  window.scrollTo(0, 0);}}>Home</p>
                     <p className="text-white text-poppins text-left font-light cursor-pointer" onClick={()=>{naviagte('/project');  window.scrollTo(0, 0);}}>Projects</p>
                     <p className="text-white text-poppins text-left font-light cursor-pointer" >Services</p>
-                    <p className="text-white text-poppins text-left font-light cursor-pointer" >Portfolio</p>
+                    <p className="text-white text-poppins text-left font-light cursor-pointer" onClick={()=>{naviagte('')}} >Portfolio</p>
                     <p className="text-white text-poppins text-left font-light cursor-pointer"  onClick={()=>{naviagte('/about');  window.scrollTo(0, 0);}}>About</p>
                     <p className="text-white text-poppins text-left font-light cursor-pointer"  onClick={()=>{naviagte('/contact');  window.scrollTo(0, 0);}}>Contact</p>
                     </div>

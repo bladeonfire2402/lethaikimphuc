@@ -1,9 +1,6 @@
 import { PrimaryButton } from "../../components/button/primarybutton"
 import './index.css'
 const ContactScreen=({witdh})=>{
-
-    
-
     return(
         <div className="Contactscreen-wrapper pt-10">
             <h1 className="text-missing-love text-center text-secondary text-7xl ">Let’s work together</h1>
