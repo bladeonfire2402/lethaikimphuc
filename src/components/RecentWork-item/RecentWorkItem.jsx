@@ -53,17 +53,17 @@ const RecentWorkItem = ({ Project }) => {
     return (
         <div
             ref={galleryItemRef}
-            className="relative Recentwork-items item-hover rounded-sm overflow-hidden"
+            className="relative Recentwork-items rounded-sm overflow-hidden "
             onClick={()=>{HandleNavigate(Project.id)}}
         >
             <img
                 alt=""
-                className="rounded-sm  w-full  object-fill  "
+                className="rounded-sm  w-full   object-fill  "
                 src={Project.img[0]}
             />
             <div
                 ref={descriptionRef}
-                className="absolute cursor-pointer w-full h-full top-0 left-0 text-gilroy-bold item-hover text-white trans-test  flex justify-center text-2xl  items-center hidden"
+                className="absolute cursor-pointer w-full h-full top-0 left-0 text-gilroy-bold  text-white trans-test  flex justify-center text-2xl  items-center hidden"
             >
                 {Project.title}
             </div>

@@ -71,8 +71,9 @@ const ProjectDetailScreenVer1 = () => {
         }
     }
     const ProjectSixImg=[...DisplayProject.img.slice(0,2),...DisplayProject.img.slice(6, 7)]
-    const OtherProjectSixImg=DisplayProject.img.slice(3,6)
+    const OtherProjectSixImg=DisplayProject.img.slice(2,5)
   
+    console.log(OtherProjectSixImg)
 
     return (
         <div className="ProjectDetailVer1-wrapper pt-10">
