@@ -6,7 +6,7 @@ const PortfolioScreen=()=>{
     const slowScrollUp = () => {
       // Khởi tạo đối tượng SmoothScroll
       const scroll = new SmoothScroll('html', {
-        speed: 1000, // Tốc độ cuộn (500ms)
+        speed: 500, // Tốc độ cuộn (500ms)
         speedAsDuration: true // Cài đặt tốc độ cuộn theo thời gian
       });
     
