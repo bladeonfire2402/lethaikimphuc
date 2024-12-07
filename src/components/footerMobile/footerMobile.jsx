@@ -11,9 +11,9 @@ const FooterMobile=()=>{
             <div className="px-14 quicklink ">
                 <h2 className="uppercase text-gilroy-bold text-white">Quick Link</h2>
                 <div className='grid grid-cols-2 text-poppins text-white mt-11 gap-7 cursor-pointer'>
-                    <nav>Home</nav>
+                    <nav onClick={()=>{navigate('/')}}>Home</nav>
                     <nav className='-ml-12 ' onClick={()=>{navigate('/project')}}>Projects</nav>
-                    <nav  onClick={()=>{navigate('service')}}>Services</nav>
+                    <nav  onClick={()=>{navigate('/service')}}>Services</nav>
                     <nav className='-ml-12'>Portfolio</nav>
                     <nav onClick={()=>{navigate('/about')}}>About</nav>
                     <nav className='-ml-12' onClick={()=>{navigate('/contact')}}>Contact</nav>

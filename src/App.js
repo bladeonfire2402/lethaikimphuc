@@ -42,7 +42,10 @@ function App() {
     <serviceContext.Provider value={{serviceState,useserviceState}}>
       <div className="App flex flex-col  items-center bg-main">
       <div className='wrapper'>
-        {screenState>480?<div><Header/></div>:<div><HeaderMobileVer2/></div>}
+        {screenState>480?
+        <div><Header/></div>
+        :
+        <div><HeaderMobile/></div>}
       </div>
       <div className='wrapper'>
          <Routes>
