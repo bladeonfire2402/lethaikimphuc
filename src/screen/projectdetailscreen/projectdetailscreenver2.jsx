@@ -1,6 +1,7 @@
 import { useNavigate, useParams } from "react-router-dom";
 import { ProjectData } from "../../assets/data/data";
 import { CustomSwiperVer2 } from "../../components/customSwiper/customSwiperVer2";
+import SmoothScroll from "smooth-scroll";
 
 
 const ProjectDetailScreenVer2=({func})=>{
@@ -8,12 +9,17 @@ const ProjectDetailScreenVer2=({func})=>{
     const DisplayProject = ProjectData.find(project => project.id === parseInt(id)); // Parse id to a number if needed
  
     const slowScrollUp = () => {
-      window.scrollTo({
-        top: 0, // Cuộn đến đầu trang (Y = 0)
-        behavior: 'smooth' // Thêm hiệu ứng cuộn mượt mà
+      // Khởi tạo đối tượng SmoothScroll
+      const scroll = new SmoothScroll('html', {
+        speed: 300, // Tốc độ cuộn (300ms)
+        speedAsDuration: true // Cài đặt tốc độ cuộn theo thời gian
       });
-    }
     
+      // Cuộn lên đầu trang
+      scroll.animateScroll(0); // Cuộn đến vị trí 0 (đầu trang)
+    };
+    
+    // Sử dụng hàm slowScrollUp
     slowScrollUp();
     const navigate=useNavigate()
 

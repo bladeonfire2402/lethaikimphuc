@@ -1,6 +1,20 @@
+import SmoothScroll from "smooth-scroll";
 import { PrimaryButton } from "../../components/button/primarybutton"
 import './index.css'
 const ContactScreen=({witdh})=>{
+    const slowScrollUp = () => {
+        // Khởi tạo đối tượng SmoothScroll
+        const scroll = new SmoothScroll('html', {
+          speed: 300, // Tốc độ cuộn (300ms)
+          speedAsDuration: true // Cài đặt tốc độ cuộn theo thời gian
+        });
+      
+        // Cuộn lên đầu trang
+        scroll.animateScroll(0); // Cuộn đến vị trí 0 (đầu trang)
+      };
+      
+      // Sử dụng hàm slowScrollUp
+      slowScrollUp();
     return(
         <div className="Contactscreen-wrapper pt-10">
             <h1 className="text-missing-love text-center text-secondary text-7xl ">Let’s work together</h1>

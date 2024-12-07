@@ -21,9 +21,7 @@ const ServiceScreen=()=>{
     };
     
     
-    const ScrollFunc=(id)=>{
-        window.location.href=`#${id}`
-    }
+    
 
     //Hàm để tùy chỉnh scrooll xuống phần nào
     const ScrollToSection=()=>{

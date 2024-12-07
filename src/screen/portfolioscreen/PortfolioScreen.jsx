@@ -1,12 +1,11 @@
-
-import { useEffect } from 'react';
 import './index.css'
 import SmoothScroll from 'smooth-scroll';
+
 const PortfolioScreen=()=>{
     const slowScrollUp = () => {
       // Khởi tạo đối tượng SmoothScroll
       const scroll = new SmoothScroll('html', {
-        speed: 300, // Tốc độ cuộn (500ms)
+        speed: 300, // Tốc độ cuộn (300ms)
         speedAsDuration: true // Cài đặt tốc độ cuộn theo thời gian
       });
     
@@ -17,9 +16,6 @@ const PortfolioScreen=()=>{
     // Sử dụng hàm slowScrollUp
     slowScrollUp();
     
-
-
-
 
     return(
         <div className="Portfolio-wrapper pt-12" id='Portfolio-wrapper'>

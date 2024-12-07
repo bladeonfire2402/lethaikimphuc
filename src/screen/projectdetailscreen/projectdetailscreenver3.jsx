@@ -3,8 +3,24 @@ import { ProjectData } from "../../assets/data/data";
 import  { CustomSwiper } from "../../components/customSwiper/customSwiper";
 import './index.css'
 import { CustomSwiperVer2 } from "../../components/customSwiper/customSwiperVer2";
+import SmoothScroll from "smooth-scroll";
 
 const ProjectDetailScreenVer3 = () => {
+
+    const slowScrollUp = () => {
+        // Khởi tạo đối tượng SmoothScroll
+        const scroll = new SmoothScroll('html', {
+          speed: 300, // Tốc độ cuộn (300ms)
+          speedAsDuration: true // Cài đặt tốc độ cuộn theo thời gian
+        });
+      
+        // Cuộn lên đầu trang
+        scroll.animateScroll(0); // Cuộn đến vị trí 0 (đầu trang)
+      };
+      
+      // Sử dụng hàm slowScrollUp
+      slowScrollUp();
+
     const navigateToNext=useNavigate()
     const navigateToPrevous=useNavigate()
     const { id } = useParams(); // Get the project ID from the route parameters
