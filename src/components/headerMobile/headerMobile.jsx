@@ -27,11 +27,11 @@ const HeaderMobile=()=>{
             </div>
              <Link to={'/'} ><nav className="apeared" onClick={()=>{sethidesideBar(true)}}>Home</nav></Link>
         
-            <Link to={'/project'}><nav className="apeared" >Project</nav></Link>
-            <nav className="apeared">Services</nav>
+            <Link to={'/project'}><nav className="apeared" onClick={()=>{sethidesideBar(true)}}>Project</nav></Link>
+            <nav className="apeared" onClick={()=>{sethidesideBar(true)}}>Services</nav>
             <nav className="apeared"><a href='https://drive.google.com/file/d/1ZtQiVNLkP-peQv0uGlROVp7meuPvxXfD/view'>Portfolio</a></nav>
-            <Link to={'/about'}><nav className="apeared">About</nav></Link>
-            <Link to={'/contact'}><nav className="apeared">Contact</nav></Link>
+            <Link to={'/about'}><nav className="apeared" onClick={()=>{sethidesideBar(true)}}>About</nav></Link>
+            <Link to={'/contact'}><nav className="apeared" onClick={()=>{sethidesideBar(true)}}>Contact</nav></Link>
             </div>
             }
           
