@@ -14,6 +14,7 @@ import { createContext, useEffect, useState } from 'react';
 import HeaderMobile from './components/headerMobile/headerMobile';
 import FooterMobile from './components/footerMobile/footerMobile';
 import ServiceScreen from './screen/servicescreen/ServiecScreen';
+import HeaderMobileVer2 from './components/headerMobile/headerMobileVer2';
 
 export const serviceContext=createContext()
 
@@ -41,7 +42,7 @@ function App() {
     <serviceContext.Provider value={{serviceState,useserviceState}}>
       <div className="App flex flex-col  items-center bg-main">
       <div className='wrapper'>
-        {screenState>480?<div><Header/></div>:<div><HeaderMobile/></div>}
+        {screenState>480?<div><Header/></div>:<div><HeaderMobileVer2/></div>}
       </div>
       <div className='wrapper'>
          <Routes>

@@ -63,7 +63,7 @@ const RecentWorkItem = ({ Project }) => {
             />
             <div
                 ref={descriptionRef}
-                className="absolute cursor-pointer w-full h-full top-0 left-0 text-gilroy-bold  text-white trans-test  flex justify-center text-2xl  items-center hidden"
+                className="absolute speacial-hover cursor-pointer w-full h-full top-0 left-0 text-gilroy-bold  text-white trans-test  flex justify-center text-2xl  items-center hidden"
             >
                 {Project.title}
             </div>

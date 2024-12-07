@@ -1,20 +1,16 @@
 .RecentWork-wrapper .special{
     background-color: rgb(60, 59, 59);
-    opacity: 0.7;
+    opacity: 0.6;
 }
 
 .RecentWork-wrapper .project-six img {
     height: 100%;
 }
 
-.RecentWork-wrapper .project-six:hover img, .special{
+.RecentWork-wrapper .project-six:hover  .special{
+    opacity: 0.9;
+    transition: 0.5s ease-in-out;
 
-    animation: 0.5s motion;
-
-}
-
-.RecentWork-wrapper .project-six:hover{
-    animation: 0.5s motion;
 }
 
 

@@ -1,9 +1,9 @@
-import { useNavigate } from 'react-router-dom'
+
 import './index.css'
 import { AccessPage } from '../../func/access'
 
 const FooterMobile=()=>{
-    const navigate=useNavigate()
+  
     return(
         <div className="FooterMobile-wrapper bg-primary py-14 flex flex-col  ">
             <div className="flex justify-center"><img alt="" src={`${process.env.PUBLIC_URL}/assets/img/main/whitelogo.png`}/></div>

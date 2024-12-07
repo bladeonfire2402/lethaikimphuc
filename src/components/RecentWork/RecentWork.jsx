@@ -1,8 +1,8 @@
-import EastIcon from '@mui/icons-material/East';
+
 import { ProjectData } from '../../assets/data/data';
 import './index.css'
 import { useNavigate } from 'react-router-dom'
-import GalleryItem from '../GalleryItem/GalleryItem';
+
 import RecentWorkItem from '../RecentWork-item/RecentWorkItem';
 
 
