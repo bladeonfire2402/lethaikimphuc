@@ -10,3 +10,23 @@
 .ServiceScreen-wrapper {
     scroll-behavior: smooth;
 }
+
+@media (max-width:480px){
+    .ServiceScreen-wrapper{
+        padding-top: 20px;
+    }
+
+    .ServiceScreen-wrapper .Service-introduction h1{
+        font-size: 60px;
+
+    }
+
+    .ServiceScreen-wrapper .Service-introduction h3{
+        font-size: 26px;
+    }
+
+    .ServiceScreen-wrapper .service-content{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

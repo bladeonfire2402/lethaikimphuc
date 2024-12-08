@@ -3,9 +3,24 @@ import { ServiceData } from '../../assets/data/servicedata'
 import ServiceBlock from '../../components/serviceBlock/ServiceBlock'
 import './index.css'
 import { serviceContext } from '../../App'
+import SmoothScroll from 'smooth-scroll'
 
 const ServiceScreen=()=>{
     const {serviceState,useserviceState}=useContext(serviceContext)
+
+    const slowScrollUp = () => {
+        // Khởi tạo đối tượng SmoothScroll
+        const scroll = new SmoothScroll('html', {
+          speed: 300, // Tốc độ cuộn (300ms)
+          speedAsDuration: true // Cài đặt tốc độ cuộn theo thời gian
+        });
+      
+        // Cuộn lên đầu trang
+        scroll.animateScroll(0); // Cuộn đến vị trí 0 (đầu trang)
+      };
+      
+      // Sử dụng hàm slowScrollUp
+    
 
 
 
@@ -37,11 +52,7 @@ const ServiceScreen=()=>{
             
         }
         else if(serviceState ==="default"){
-            window.scrollTo({
-                top: 0, // Cuộn đến đầu trang (Y = 0)
-                behavior: 'smooth' // Thêm hiệu ứng cuộn mượt mà
-              });
-
+            slowScrollUp()
         }
     
     }
@@ -53,7 +64,7 @@ const ServiceScreen=()=>{
   
     
     return(
-        <div className="ServiceScreen-wrapper pt-24">
+        <div className="ServiceScreen-wrapper pt-24 pb-10">
             <div className="flex flex-col justify-center Service-introduction items-center">
                 <h1 className="text-gilroy-bold text-primary">Services</h1>
                 <h3 className='text-center text-gilroy-bold text-primary '>Develop your passion project with eye catching branding, packaging, web design & illustrations.</h3>

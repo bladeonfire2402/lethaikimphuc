@@ -1,6 +1,7 @@
 import SmoothScroll from "smooth-scroll";
 import { PrimaryButton } from "../../components/button/primarybutton"
 import './index.css'
+
 const ContactScreen=({witdh})=>{
     const slowScrollUp = () => {
         // Khởi tạo đối tượng SmoothScroll
