@@ -14,7 +14,7 @@ const FooterMobile=()=>{
                     <nav onClick={()=>{navigate('/')}}>Home</nav>
                     <nav className='-ml-12 ' onClick={()=>{navigate('/project')}}>Projects</nav>
                     <nav  onClick={()=>{navigate('/service')}}>Services</nav>
-                    <nav className='-ml-12'>Portfolio</nav>
+                    <nav className='-ml-12'><a href='https://drive.google.com/file/d/1ZtQiVNLkP-peQv0uGlROVp7meuPvxXfD/view'>Portfolio</a></nav>
                     <nav onClick={()=>{navigate('/about')}}>About</nav>
                     <nav className='-ml-12' onClick={()=>{navigate('/contact')}}>Contact</nav>
                 </div>
