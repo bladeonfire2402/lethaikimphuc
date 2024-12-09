@@ -8,8 +8,7 @@ import './index.css'
 import { serviceContext } from '../../App'
 
 const HomeScreen = () =>{
-    const {serviceState}=useContext(serviceContext)
-    console.log(serviceState)
+
     return(
         <div className="HomeScreen-wrapper pt-12 ">
           <LendIdeaToWorldSection/>

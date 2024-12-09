@@ -6,13 +6,7 @@ import CloseIcon from '@mui/icons-material/Close';
 
 const HeaderMobile=()=>{
     const [hidesideBar,sethidesideBar]=useState(true)
-
-    const handleCloseSlideBar=()=>{}
-    useEffect(()=>{
-        
-    },[hidesideBar])
-    
-    
+   
    
     return(
         <div className="HeaderMobile px-5 py-4 flex justify-between items-center relative">
