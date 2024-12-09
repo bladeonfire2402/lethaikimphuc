@@ -55,7 +55,15 @@
         gap: 2rem;
     }
 
-    .RecentWork-wrapper .project-six img, .RecentWork-wrapper .RecentWork-items{
+
+
+    .RecentWork-wrapper .Recentwork-items{
         height: 300px;
     }
+
+    .RecentWork-wrapper .project-six img{
+        height: 300px;
+    }
+
+    
 }
