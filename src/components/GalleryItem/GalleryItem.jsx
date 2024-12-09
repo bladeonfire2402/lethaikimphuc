@@ -90,7 +90,7 @@ const GalleryItem = ({ Project, screenState, scrollLocation }) => {
     return (
         <div
             ref={galleryItemRef}
-            className="relative gallery-items item-hover rounded-sm overflow-hidden"
+            className="relative gallery-items item-hover rounded-md overflow-hidden"
             onClick={()=>{HandleNavigate(Project.id)}}
             id={Project.title}
         >

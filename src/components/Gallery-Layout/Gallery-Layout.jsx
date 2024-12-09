@@ -8,10 +8,7 @@ const GalleryLayout=()=>{
     const [screenheight,setscreenheight]=useState(window.innerHeight)
     const [state,setState]=useState(window.scrollY || document.documentElement.scrollTop)
 
-   
-
-
-
+    
     useEffect(()=>{
         const handleResize = () => {
             usescreenState(window.innerWidth);
