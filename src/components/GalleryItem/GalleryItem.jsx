@@ -12,8 +12,8 @@ const GalleryItem = ({ Project, screenState, scrollLocation }) => {
     useEffect(() => {
         const galleryItem = galleryItemRef.current;
         const description = descriptionRef.current;
-        const galleryItemLocationBottom =  document.getElementById(Project.title).getBoundingClientRect().bottom;
-        const galleryItemLocationTop =  document.getElementById(Project.title).getBoundingClientRect().top;
+        const galleryItemLocationBottom =  document.getElementById(Project.title).getBoundingClientRect().bottom-100;
+        const galleryItemLocationTop =  document.getElementById(Project.title).getBoundingClientRect().top+100;
 
 
         console.log("Tạo độ top của phần tử " +  galleryItemLocationTop)
@@ -47,12 +47,16 @@ const GalleryItem = ({ Project, screenState, scrollLocation }) => {
                 const hideDescription = () => description.classList.add("hidden");
                 hideDescription()
             }
+        }
 
+        const RenderGalleryItemForMbVer2=()=>{
+            const showDescription = () => description.classList.remove("hidden");// Hàm Xóa class hidden, để hiện lớp
+            showDescription()
         }
 
         //Hàm xử lí chung cho giao diện
         const HandleResponsiveFuncForGalleryItem=()=>{
-            screenState > 480 ? RenderGalleryItemForDesktop() : RenderGalleryItemForMb()
+            screenState > 480 ? RenderGalleryItemForDesktop() : RenderGalleryItemForMbVer2()
         }
 
 
