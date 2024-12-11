@@ -4,6 +4,7 @@ import './index.css';
 import { useNavigate } from "react-router-dom";
 
 import { CustomSwiperVer3 } from "../customSwiper/customSwiperVer3";
+import ButtonBestia from "../buttonBestia/ButtonBestia";
 
 
 const LendIdeaToWorldSection = () => {
@@ -24,8 +25,8 @@ const LendIdeaToWorldSection = () => {
                     <p className='text-primary text-poppins text-left mt-11 mb-5 res-p'>
                         Hi, there! Kim Phuc is here! With over three years of experience as a graphic designer and illustrator, I'm eager to bring your ideas to life!
                     </p>
-                    <div className='flex mt-14 btn-section' >
-                        <PrimaryButton text={"More Details"} func={()=>{navigate('/about')}} />
+                    <div className='flex mt-8 btn-section' >
+                        <ButtonBestia text={"More Details"} func={()=>{navigate('/about')}} />
                     </div>
                 </div>
             </div>

@@ -2,6 +2,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import './index.css'
 import { useContext } from 'react'
 import { serviceContext } from '../../App'
+import ButtonBestia from '../buttonBestia/ButtonBestia'
 
 const SkillBlock=({item})=>{
     const {serviceState,useserviceState}=useContext(serviceContext)
@@ -16,7 +17,6 @@ const SkillBlock=({item})=>{
             <h3 className="text-secondary text-gilroy-bold mt-10 mb-7  text-2xl">
             {item.title}
             </h3>
-
             <button className="text-white w-full py-4 font rounded-md bg-primary text-poppins font-semibold" onClick={()=>{handleNavigate()}}>See More</button>
         </div>
     )

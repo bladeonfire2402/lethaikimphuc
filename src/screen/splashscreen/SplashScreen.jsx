@@ -1,10 +1,24 @@
 import { useEffect, useState } from "react";
 import './index.css';
-import SplashScreenBlock from "../../components/splashScreenBlock/splashScreenBlock";
+import SmoothScroll from "smooth-scroll";
 
 
 const SplashScreen = ({ visible }) => {
   const [splashVisible, setSplashVisible] = useState(visible);
+
+  const slowScrollUp = () => {
+    // Khởi tạo đối tượng SmoothScroll
+    const scroll = new SmoothScroll('html', {
+      speed: 300, // Tốc độ cuộn (300ms)
+      speedAsDuration: true // Cài đặt tốc độ cuộn theo thời gian
+    });
+  
+    // Cuộn lên đầu trang
+    scroll.animateScroll(0); // Cuộn đến vị trí 0 (đầu trang)
+  };
+  
+  // Sử dụng hàm slowScrollUp
+  slowScrollUp();
 
 
   useEffect(() => {
@@ -68,18 +82,7 @@ const SplashScreen = ({ visible }) => {
       const splashContainer=document.querySelector('.splashscreen-wrapper')
       splashContainer.style="animation: 2s fadeOut !important"
     },5000)
-
-
-
-
-
-
-   
   },[])
-
-
-
-
   return (
     <div
       className={`splashscreen-wrapper absolute top-0 bg-primary w-full z-30 flex  

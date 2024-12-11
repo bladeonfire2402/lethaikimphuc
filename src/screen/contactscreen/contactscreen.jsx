@@ -1,6 +1,7 @@
 import SmoothScroll from "smooth-scroll";
 import { PrimaryButton } from "../../components/button/primarybutton"
 import './index.css'
+import ButtonBestia from "../../components/buttonBestia/ButtonBestia";
 
 const ContactScreen=({witdh})=>{
     const slowScrollUp = () => {
@@ -46,8 +47,8 @@ const ContactScreen=({witdh})=>{
                 <label className="text-poppins text-primary mt-10">Message</label>
                 <input className="bg-thirdly px-2 py-10 rounded-sm mt-3" type="text" />
                 </div>
-                <div className="flex justify-center mt-10">
-                <PrimaryButton text={"Submit"} />
+                <div className="flex justify-center mt-14">
+                  <ButtonBestia text={"Submit now"}/>
 
                 </div>
 
