@@ -31,7 +31,7 @@ function App() {
   const RemoveSplash = () => {
     setTimeout(() => {
       setVisible(false); // Đặt lại visible thành false sau 2 giây
-    }, 2000); // Thời gian ẩn SplashScreen
+    }, 7000); // Thời gian ẩn SplashScreen
   };
 
   useEffect(() => {
