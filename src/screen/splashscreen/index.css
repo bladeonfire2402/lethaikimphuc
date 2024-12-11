@@ -41,13 +41,15 @@
     align-items: center;
     width: 100px;
     height: 100px;
-    animation: expland 1s  forwards
+    animation: expland 1s  forwards;
+
   }
 
   .pressing{
     animation: pressing 0.5s forwards !important;
-    border: 2px solid black;
+
   }
+
 
   @keyframes rotateAnimation {
     0% {
@@ -57,8 +59,40 @@
       transform: rotate(360deg);
     }
   }
+
+
   
   @keyframes fadeOut{
+    0%{
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+    }
+  }
+
+  @keyframes fadeIn{
+    0%{
+      opacity: 0;
+    }
+    80%{
+      opacity: 0.1;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeIn2{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeOut2{
     0%{
       opacity: 1;
     }
@@ -96,4 +130,8 @@
     50%{
       transform: scale(0.7);
     }
+    100%{
+      transform: scale(1);
+    }
+    
   }

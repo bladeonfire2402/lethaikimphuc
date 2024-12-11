@@ -32,32 +32,44 @@ const SplashScreen = ({ visible }) => {
   }, [splashVisible]); // Chạy mỗi khi splashVisible thay đổi
 
   useEffect(()=>{
+    //nhún 1 nhịp
     setTimeout(()=>{      
       const testSplash=document.querySelector('.splash-logo ')
       testSplash.classList.add('pressing')
+      
     },2000)
 
     setTimeout(()=>{
       const testSplash=document.querySelector('.splash-logo ')
-      testSplash.style = "background-color:#ff8dc8; transition: background-color 1s ease-in-out, border-radius 0.3s; border-radius: 10px; animation: rotateAnimation 1s forwards !important;";      
+      const testSplashimg=testSplash.querySelector('img')
+      testSplashimg.style="animation:1s fadeOut2 forwards"
+
+    },2300)
+
+    //xoay logo
+    setTimeout(()=>{
+      const testSplash=document.querySelector('.splash-logo ')
+      testSplash.style = "background-color:#fff; transition: background-color 1s ease-in-out; border-radius:10px; animation: rotateAnimation 1s forwards !important";      
     },2500)
 
     setTimeout(()=>{
       const testSplash=document.querySelector('.splash-logo ')
       const testSplashimg=testSplash.querySelector('img')
-      testSplashimg.src=`${process.env.PUBLIC_URL}/assets/img/main/whitelogo.png`
-    },3000)
+      testSplashimg.src=`${process.env.PUBLIC_URL}/assets/img/main/bluelogo.png`
+      testSplashimg.style="animation:0.5s fadeIn2 forwards"
+    },3300)
 
     setTimeout(()=>{
       const testSplash=document.querySelector('.splash-logo ')
-      testSplash.style="animation: 2s fadeOut !important;transform:rotate(360deg);background-color:#ff8dc8; border-radius: 10px;opacity:0"
+      testSplash.style="animation: 2s fadeOut forwards !important; border-radius: 10px"
+    },4500)
 
-    },3600)
-
+    
     setTimeout(()=>{
       const splashContainer=document.querySelector('.splashscreen-wrapper')
       splashContainer.style="animation: 2s fadeOut !important"
-    },5000)
+    },6000)
+   
 
 
 
@@ -67,7 +79,7 @@ const SplashScreen = ({ visible }) => {
 
   return (
     <div
-      className={`splashscreen-wrapper absolute top-0 bg-primary w-full z-30 flex  
+      className={`splashscreen-wrapper absolute top-0 bg-secondary w-full z-30 flex  
         ${splashVisible ? 'show' : 'hideeffect'}`}
       style={{ height: `${height}px` }}
     >
