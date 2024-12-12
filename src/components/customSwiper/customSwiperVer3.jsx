@@ -7,12 +7,12 @@ import 'swiper/css';
 import 'swiper/css/autoplay';
 import 'swiper/css/effect-fade';
 
-export const CustomSwiperVer3 = ({imgList}) => {
+export const CustomSwiperVer3 = ({imgList,time}) => {
   return (
     <Swiper
       modules={[Autoplay,EffectFade]}
       autoplay={{
-        delay: 50, 
+        delay: time, 
         disableOnInteraction: false, // Keeps autoplay active even after user interaction
       }}
       effect={'fade'}

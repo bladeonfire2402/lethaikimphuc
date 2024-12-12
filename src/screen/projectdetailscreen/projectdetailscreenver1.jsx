@@ -4,6 +4,7 @@ import  { CustomSwiper } from "../../components/customSwiper/customSwiper";
 import './index.css'
 import { CustomSwiperVer2 } from "../../components/customSwiper/customSwiperVer2";
 import SmoothScroll from "smooth-scroll";
+import { CustomSwiperVer3 } from "../../components/customSwiper/customSwiperVer3";
 
 const ProjectDetailScreenVer1 = () => {
     const { id } = useParams(); // Get the project ID from the route parameters
@@ -113,7 +114,7 @@ const ProjectDetailScreenVer1 = () => {
 
             </div>
             {DisplayProject.id===6 ? <div className="mt-16">
-              <CustomSwiperVer2 imgList={OtherProjectSixImg} width={width}/>
+              <CustomSwiperVer3 imgList={OtherProjectSixImg} width={width} time={500}/>
             </div> : <div></div>}
             </div>
             <div className="mt-14 gap-5 flex flex-col switch res-gap-10 -res-m-32 ">

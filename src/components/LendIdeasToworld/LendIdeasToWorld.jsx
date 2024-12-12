@@ -15,7 +15,7 @@ const LendIdeaToWorldSection = () => {
     return (
         <div className="LendIdeaToWorld-wrapper flex gap-10 justify-between">
             <div className='w-6/12 res-7-12 pr-2 '>
-               <CustomSwiperVer3 imgList={imgList}/>
+               <CustomSwiperVer3 imgList={imgList} time={50}/>
             </div>
             <div className="w-6/12 res-6-12">
                 <div className="w-9/12 res-9-12">
