@@ -3,6 +3,10 @@
     opacity: 0.6;
 }
 
+.RecentWork-wrapper {
+    max-height: 1200px;
+}
+
 .RecentWork-wrapper .project-six img {
     height: 100%;
 }
