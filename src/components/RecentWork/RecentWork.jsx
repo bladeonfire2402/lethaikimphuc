@@ -19,7 +19,7 @@ const RecentWork=()=>{
     return(
         <div className="RecentWork-wrapper mt-20 ">
             <h2 className="text-gilroy-bold text-left text-5xl text-primary mb-16">Recent <br/> Work</h2>
-            <div className='grid grid-cols-3 gap-8 res-flex'>
+            <div className='RecentWork-wrapper-content grid grid-cols-3 gap-8 res-flex'>
               <RecentWorkItem Project={Project1}/>
               <RecentWorkItem Project={Project2}/>
             
