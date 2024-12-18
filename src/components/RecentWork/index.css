@@ -13,7 +13,7 @@
 }
 
 .RecentWork-wrapper .project-six img {
-    height: 100%;
+    height: auto;
 }
 
 .RecentWork-wrapper .project-six:hover  .special{
