@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import "./button.css";
+import { useNavigate,Link } from 'react-router-dom'
 
 const ButtonMore = ({ label, onClick }) => {
+  const navigate=useNavigate()
   const [rippleStyle, setRippleStyle] = useState({});
   const [showRipple, setShowRipple] = useState(false);
 
@@ -20,12 +22,11 @@ const ButtonMore = ({ label, onClick }) => {
     });
 
     setShowRipple(true);
+    navigate('./contact')
 
     setTimeout(() => setShowRipple(false), 500);
 
-    if (onClick) {
-      onClick();
-    }
+    
   };
 
   return (
