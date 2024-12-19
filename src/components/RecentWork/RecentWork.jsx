@@ -35,7 +35,7 @@ const RecentWork=()=>{
                 </div>
                 
               <div className='relative overflow-hidden rounded-sm project-six ' onClick={()=>{navigate('/project')}}>
-                <img alt='' src={Project6.img[0]} className=''/>
+                <img alt='' src={`${process.env.PUBLIC_URL}/assets/img/main/kim.png`} className='w-full rounded-sm object-fill'/>
                 <div className='w-full h-full absolute top-0 right-0 bg-gray-700 special  '></div>
                 <h3 className='absolute top-1/2 left-1/2 text-poppins text-white cursor-pointer text-lg' >See More</h3>
               </div>

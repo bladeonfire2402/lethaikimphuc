@@ -1,3 +1,7 @@
+.Recentwork-items{
+    max-height: 500px;
+}
+
 .Recentwork-items .speacial-hover{
     animation: 0.5s appear;
 }
