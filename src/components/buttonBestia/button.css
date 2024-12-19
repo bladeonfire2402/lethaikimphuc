@@ -1,0 +1,41 @@
+/* General styles for the button */
+.btn-effect {
+  position: relative;
+  padding: 15px 30px;
+  font-size: 18px;
+  color: white;
+  background: linear-gradient(90deg, #ff8dc8, #e52e71);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.btn-effect:hover {
+  box-shadow: 0 5px 15px #ff8dc8;
+  transform: translateY(-3px);
+}
+
+/* Ripple effect */
+.ripple {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.6);
+  pointer-events: none;
+  animation: ripple-animation 0.5s ease-out;
+}
+
+@keyframes ripple-animation {
+  from {
+    transform: scale(0);
+    opacity: 1;
+  }
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
